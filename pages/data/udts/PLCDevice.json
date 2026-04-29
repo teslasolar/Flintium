@@ -1,0 +1,58 @@
+{
+  "name": "PLCDevice",
+  "parent": null,
+  "level": 6,
+  "group": "plc",
+  "fields": [
+    {
+      "n": "Name",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "IP",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Processor",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Rack0",
+      "t": "UDT:PLCRack"
+    },
+    {
+      "n": "Rack1",
+      "t": "UDT:PLCRack"
+    },
+    {
+      "n": "Rack2",
+      "t": "UDT:PLCRack"
+    },
+    {
+      "n": "CommOK",
+      "t": "Boolean",
+      "v": true
+    },
+    {
+      "n": "ScanRate",
+      "t": "Int4",
+      "v": 1000
+    },
+    {
+      "n": "KeySwitch",
+      "t": "Int4",
+      "v": 1
+    },
+    {
+      "n": "Alarms",
+      "t": "UDT:AlarmSet"
+    },
+    {
+      "n": "DiagScript",
+      "t": "UDT:Script"
+    }
+  ]
+}

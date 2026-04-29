@@ -1,0 +1,48 @@
+{
+  "name": "PLCModule",
+  "parent": null,
+  "level": 6,
+  "group": "plc",
+  "fields": [
+    {
+      "n": "Type",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "FwVer",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Status",
+      "t": "Int4",
+      "v": 0
+    },
+    {
+      "n": "Fault",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "CommOK",
+      "t": "Boolean",
+      "v": true
+    },
+    {
+      "n": "DiagCode",
+      "t": "Int4",
+      "v": 0
+    },
+    {
+      "n": "Serial",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Catalog",
+      "t": "String",
+      "v": ""
+    }
+  ]
+}

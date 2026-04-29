@@ -1,0 +1,38 @@
+{
+  "name": "DiscreteOutput",
+  "parent": null,
+  "level": 1,
+  "group": "signals",
+  "fields": [
+    {
+      "n": "CMD",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "FB",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "Pulse",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "PulseTime",
+      "t": "Int4",
+      "v": 500
+    },
+    {
+      "n": "Interlock",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "InterlockMsg",
+      "t": "String",
+      "v": ""
+    }
+  ]
+}

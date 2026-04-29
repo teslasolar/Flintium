@@ -1,0 +1,32 @@
+{
+  "name": "DiscreteInput",
+  "parent": null,
+  "level": 1,
+  "group": "signals",
+  "fields": [
+    {
+      "n": "Value",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "OnDelay",
+      "t": "Int4",
+      "v": 0
+    },
+    {
+      "n": "OffDelay",
+      "t": "Int4",
+      "v": 0
+    },
+    {
+      "n": "Inverted",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "Alarms",
+      "t": "UDT:AlarmSet"
+    }
+  ]
+}

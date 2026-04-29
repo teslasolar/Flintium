@@ -6,19 +6,8 @@
   <title>Templates · Flintium</title>
   <link rel="stylesheet" href="./assets/style.css" />
 </head>
-<body>
-  <header class="site">
-    <div class="nav-inner">
-      <div class="brand"><span class="dot"></span> Flintium</div>
-      <nav class="links">
-        <a href="../index.html">Home</a>
-        <a href="./faceplates.html">Faceplates</a>
-        <a href="./templates.html" class="active">Templates</a>
-        <a href="./demo.html">Demo Apps</a>
-        <a href="https://github.com/teslasolar/Flintium" target="_blank" rel="noopener">GitHub</a>
-      </nav>
-    </div>
-  </header>
+<body data-page="templates">
+  <div data-include="header"></div>
 
   <main>
     <h1 class="section-title">Templates <small><span id="count">…</span> resources</small></h1>
@@ -32,9 +21,7 @@
     <div id="gallery" class="gallery"></div>
   </main>
 
-  <footer class="site">
-    <a href="../index.html">← Back to home</a>
-  </footer>
+  <div data-include="footer"></div>
 
   <div class="modal-backdrop" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
     <div class="modal" role="document">
@@ -46,6 +33,7 @@
     </div>
   </div>
 
+  <script type="module" src="./assets/layout.js"></script>
   <script src="./assets/app.js"></script>
   <script>window.Flintium.initGalleryPage("templates").catch((e) => console.error(e));</script>
 </body>

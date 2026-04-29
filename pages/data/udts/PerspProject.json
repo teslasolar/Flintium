@@ -1,0 +1,48 @@
+{
+  "name": "PerspProject",
+  "parent": null,
+  "level": 7,
+  "group": "opc-perspective",
+  "fields": [
+    {
+      "n": "Name",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Title",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "DefaultView",
+      "t": "UDT:PerspView"
+    },
+    {
+      "n": "LoginView",
+      "t": "UDT:PerspView"
+    },
+    {
+      "n": "Session",
+      "t": "UDT:PerspSession"
+    },
+    {
+      "n": "AuthProfile",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "IdleTimeout",
+      "t": "Int4",
+      "v": 300
+    },
+    {
+      "n": "StartupScript",
+      "t": "UDT:Script"
+    },
+    {
+      "n": "ShutdownScript",
+      "t": "UDT:Script"
+    }
+  ]
+}

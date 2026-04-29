@@ -1,0 +1,30 @@
+<div class="C">
+  <div style="display:flex;background:var(--card);border-bottom:1px solid var(--b);padding:0 4px">
+    <span class="tab on" data-tab="chat">💬 CHAT</span>
+    <span class="tab" data-tab="console">🖥️ SCRIPT CONSOLE</span>
+    <span class="tab" data-tab="diag">🔧 DIAGNOSTICS</span>
+  </div>
+
+  <div id="chatPanel" style="flex:1;display:flex;flex-direction:column;overflow:hidden">
+    <div id="chatArea"></div>
+    <div style="height:2px;background:var(--b);overflow:hidden">
+      <div id="llmProg" style="height:100%;width:0;background:var(--wr);transition:width .3s"></div>
+    </div>
+    <div id="inputArea">
+      <textarea id="chatIn" placeholder="system.tag.read, create UDT, troubleshoot..."></textarea>
+      <button class="sBtn" id="btnSend">⚡</button>
+    </div>
+  </div>
+
+  <div id="consolePanel" style="flex:1;display:none;flex-direction:column;overflow:hidden">
+    <div style="flex:1;overflow-y:auto;padding:6px" id="consoleOut"></div>
+    <div style="padding:4px 6px;border-top:1px solid var(--b);display:flex;gap:3px">
+      <textarea id="scriptIn"
+        placeholder="system.tag.readBlocking(['[default]Path'])"
+        style="flex:1;background:var(--card);border:1px solid var(--b);color:var(--ok);font-size:9px;padding:4px 6px;border-radius:3px;resize:none;height:48px;font-family:inherit"></textarea>
+      <button class="sBtn" id="btnRunScript" style="align-self:flex-end">▶ RUN</button>
+    </div>
+  </div>
+
+  <div id="diagPanel" style="flex:1;display:none;overflow-y:auto;padding:8px;font-size:8px;line-height:1.6"></div>
+</div>

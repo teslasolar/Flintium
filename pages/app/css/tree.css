@@ -1,0 +1,32 @@
+.tn { padding: 0; }
+
+.tn > .tl {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 1px 3px;
+  border-radius: 2px;
+  font-size: 6.5px;
+  cursor: pointer;
+}
+
+.tn > .tl:hover { background: rgba(56, 181, 249, 0.04); }
+
+.tn > .tl.sel {
+  background: rgba(56, 181, 249, 0.08);
+  color: var(--wh);
+}
+
+.tn > .tc {
+  padding-left: 10px;
+  display: none;
+}
+
+.tn.open > .tc { display: block; }
+
+.tn > .tl .arr {
+  width: 7px;
+  text-align: center;
+  color: var(--t2);
+  font-size: 5px;
+}

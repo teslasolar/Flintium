@@ -1,0 +1,47 @@
+{
+  "name": "TransGroup",
+  "parent": null,
+  "level": 0,
+  "group": "primitives",
+  "fields": [
+    {
+      "n": "Name",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Enabled",
+      "t": "Boolean",
+      "v": true
+    },
+    {
+      "n": "Rate",
+      "t": "Int4",
+      "v": 1000
+    },
+    {
+      "n": "Table",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Mode",
+      "t": "String",
+      "v": "history"
+    },
+    {
+      "n": "Items",
+      "t": "Int4",
+      "v": 0
+    },
+    {
+      "n": "DB",
+      "t": "String",
+      "v": "default"
+    },
+    {
+      "n": "Script",
+      "t": "UDT:Script"
+    }
+  ]
+}

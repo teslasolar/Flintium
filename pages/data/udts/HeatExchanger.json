@@ -1,0 +1,52 @@
+{
+  "name": "HeatExchanger",
+  "parent": null,
+  "level": 4,
+  "group": "vessels",
+  "fields": [
+    {
+      "n": "HotIn",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "HotOut",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "ColdIn",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "ColdOut",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "HotFlow",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "ColdFlow",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "CtrlValve",
+      "t": "UDT:Valve"
+    },
+    {
+      "n": "TempPID",
+      "t": "UDT:PID"
+    },
+    {
+      "n": "DutyCalc",
+      "t": "UDT:ExprTag"
+    },
+    {
+      "n": "FoulingCalc",
+      "t": "UDT:ExprTag"
+    },
+    {
+      "n": "Alarms",
+      "t": "UDT:AlarmSet"
+    }
+  ]
+}

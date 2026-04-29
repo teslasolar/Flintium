@@ -1,0 +1,48 @@
+{
+  "name": "BoilerSys",
+  "parent": null,
+  "level": 5,
+  "group": "systems",
+  "fields": [
+    {
+      "n": "Boiler",
+      "t": "UDT:Tank"
+    },
+    {
+      "n": "FeedPump",
+      "t": "UDT:Pump"
+    },
+    {
+      "n": "FuelValve",
+      "t": "UDT:Valve"
+    },
+    {
+      "n": "SteamHdr",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "StackTemp",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "O2Trim",
+      "t": "UDT:PID"
+    },
+    {
+      "n": "Blowdown",
+      "t": "UDT:Valve"
+    },
+    {
+      "n": "BurnerSeq",
+      "t": "UDT:Sequencer"
+    },
+    {
+      "n": "Alarms",
+      "t": "UDT:AlarmSet"
+    },
+    {
+      "n": "EffCalc",
+      "t": "UDT:ExprTag"
+    }
+  ]
+}

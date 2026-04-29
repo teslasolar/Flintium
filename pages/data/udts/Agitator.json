@@ -1,0 +1,16 @@
+{
+  "name": "Agitator",
+  "parent": "Motor",
+  "level": 3,
+  "group": "equipment",
+  "fields": [
+    {
+      "n": "Torque",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "SpeedPID",
+      "t": "UDT:PID"
+    }
+  ]
+}

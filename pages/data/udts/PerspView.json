@@ -1,0 +1,50 @@
+{
+  "name": "PerspView",
+  "parent": null,
+  "level": 7,
+  "group": "opc-perspective",
+  "fields": [
+    {
+      "n": "Path",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Params",
+      "t": "String",
+      "v": "{}"
+    },
+    {
+      "n": "Width",
+      "t": "Int4",
+      "v": 800
+    },
+    {
+      "n": "Height",
+      "t": "Int4",
+      "v": 600
+    },
+    {
+      "n": "Permission",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Bindings",
+      "t": "Int4",
+      "v": 0
+    },
+    {
+      "n": "OnStartup",
+      "t": "UDT:Script"
+    },
+    {
+      "n": "TagBinding",
+      "t": "UDT:ExprTag"
+    },
+    {
+      "n": "NQ_Data",
+      "t": "UDT:NamedQuery"
+    }
+  ]
+}

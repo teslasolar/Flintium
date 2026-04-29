@@ -1,0 +1,33 @@
+<div class="R">
+  <div class="ph">📋 SELECTED</div>
+  <div class="pb" id="selTag">Click a tag</div>
+
+  <div class="ph">📊 HISTORY</div>
+  <div class="pb" id="tagHist" style="max-height:60px;overflow-y:auto">—</div>
+
+  <div class="ph">⚙️ UDT DETAIL</div>
+  <div class="pb" id="udtDetail" style="max-height:100px;overflow-y:auto">—</div>
+
+  <div class="ph">🔧 SQL</div>
+  <div class="pb">
+    <textarea class="sql" id="sqlIn" placeholder="SELECT * FROM tags LIMIT 10"></textarea>
+    <button class="bt" id="btnRunSql" style="width:100%;margin-top:1px">▶ SQL</button>
+    <div id="sqlOut" style="font-size:5.5px;max-height:60px;overflow-y:auto;margin-top:2px"></div>
+  </div>
+
+  <div class="ph">📈 STATS</div>
+  <div class="pb" id="dbStats">—</div>
+
+  <div class="ph">🔧 TROUBLESHOOT</div>
+  <div class="pb" id="tshoot" style="font-size:6.5px;max-height:120px;overflow-y:auto">
+    <div class="d">Common issues:</div>
+    <div class="ts-item" data-q="tag not updating">• Tag not updating</div>
+    <div class="ts-item" data-q="OPC quality bad">• OPC quality bad</div>
+    <div class="ts-item" data-q="gateway connection lost">• Gateway connection lost</div>
+    <div class="ts-item" data-q="PLC comm failure">• PLC comm failure</div>
+    <div class="ts-item" data-q="tag history gaps">• Tag history gaps</div>
+    <div class="ts-item" data-q="alarm flood">• Alarm flooding</div>
+    <div class="ts-item" data-q="perspective session timeout">• Session timeout</div>
+    <div class="ts-item" data-q="script error gateway scope">• Script scope error</div>
+  </div>
+</div>

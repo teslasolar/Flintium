@@ -1,0 +1,56 @@
+{
+  "name": "Area",
+  "parent": null,
+  "level": 9,
+  "group": "site",
+  "fields": [
+    {
+      "n": "PS1",
+      "t": "UDT:PumpStation"
+    },
+    {
+      "n": "PS2",
+      "t": "UDT:PumpStation"
+    },
+    {
+      "n": "TK1",
+      "t": "UDT:Tank"
+    },
+    {
+      "n": "TK2",
+      "t": "UDT:Reactor"
+    },
+    {
+      "n": "HX1",
+      "t": "UDT:HeatExchanger"
+    },
+    {
+      "n": "CIP",
+      "t": "UDT:CIPSys"
+    },
+    {
+      "n": "Boiler",
+      "t": "UDT:BoilerSys"
+    },
+    {
+      "n": "Conv1",
+      "t": "UDT:Conveyor"
+    },
+    {
+      "n": "Conv2",
+      "t": "UDT:Conveyor"
+    },
+    {
+      "n": "Alarms",
+      "t": "UDT:AlarmSet"
+    },
+    {
+      "n": "AreaView",
+      "t": "UDT:PerspView"
+    },
+    {
+      "n": "NQ_KPIs",
+      "t": "UDT:NamedQuery"
+    }
+  ]
+}

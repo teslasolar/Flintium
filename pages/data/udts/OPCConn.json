@@ -1,0 +1,50 @@
+{
+  "name": "OPCConn",
+  "parent": null,
+  "level": 7,
+  "group": "opc-perspective",
+  "fields": [
+    {
+      "n": "Server",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Endpoint",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Connected",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "Items",
+      "t": "Int4",
+      "v": 0
+    },
+    {
+      "n": "ReadRate",
+      "t": "Int4",
+      "v": 1000
+    },
+    {
+      "n": "Security",
+      "t": "String",
+      "v": "None"
+    },
+    {
+      "n": "Device",
+      "t": "UDT:PLCDevice"
+    },
+    {
+      "n": "Alarms",
+      "t": "UDT:AlarmSet"
+    },
+    {
+      "n": "ConnScript",
+      "t": "UDT:Script"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "plant-tk-101",
+  "path": "[default]Plant/TK-101",
+  "udt": "Tank",
+  "label": "Tank 101",
+  "description": "Process storage tank with level, temp, pressure, weight + jacketed heater and agitator.",
+  "overrides": {
+    "Capacity": 2500
+  }
+}

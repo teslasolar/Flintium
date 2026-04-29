@@ -1,0 +1,66 @@
+{
+  "name": "PumpStation",
+  "parent": null,
+  "level": 5,
+  "group": "systems",
+  "fields": [
+    {
+      "n": "Lead",
+      "t": "Int4",
+      "v": 1
+    },
+    {
+      "n": "AutoRotate",
+      "t": "Boolean",
+      "v": true
+    },
+    {
+      "n": "Pump1",
+      "t": "UDT:Pump"
+    },
+    {
+      "n": "Pump2",
+      "t": "UDT:Pump"
+    },
+    {
+      "n": "Pump3",
+      "t": "UDT:Pump"
+    },
+    {
+      "n": "WetWell",
+      "t": "UDT:Tank"
+    },
+    {
+      "n": "DischargeHdr",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "CheckValve",
+      "t": "UDT:Valve"
+    },
+    {
+      "n": "IsoValve",
+      "t": "UDT:Valve"
+    },
+    {
+      "n": "LeadLag",
+      "t": "UDT:Sequencer"
+    },
+    {
+      "n": "Alarms",
+      "t": "UDT:AlarmSet"
+    },
+    {
+      "n": "NQ_Report",
+      "t": "UDT:NamedQuery"
+    },
+    {
+      "n": "DailyCalc",
+      "t": "UDT:ExprTag"
+    },
+    {
+      "n": "RunScript",
+      "t": "UDT:Script"
+    }
+  ]
+}

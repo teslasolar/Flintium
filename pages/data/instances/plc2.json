@@ -1,0 +1,13 @@
+{
+  "id": "plc2",
+  "path": "[Ignition OPC-UA Server]PLC2",
+  "udt": "PLCDevice",
+  "label": "PLC 2 (CompactLogix)",
+  "description": "Single-rack CompactLogix; same UDT, fewer modules populated.",
+  "overrides": {
+    "Name": "PLC2",
+    "IP": "192.168.1.11",
+    "Processor": "L33ER",
+    "ScanRate": 100
+  }
+}

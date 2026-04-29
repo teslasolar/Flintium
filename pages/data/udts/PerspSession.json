@@ -1,0 +1,50 @@
+{
+  "name": "PerspSession",
+  "parent": null,
+  "level": 7,
+  "group": "opc-perspective",
+  "fields": [
+    {
+      "n": "User",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Roles",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Locale",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "TZ",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Page",
+      "t": "UDT:PerspView"
+    },
+    {
+      "n": "Timeout",
+      "t": "Int4",
+      "v": 300
+    },
+    {
+      "n": "Theme",
+      "t": "String",
+      "v": "dark"
+    },
+    {
+      "n": "OnLogin",
+      "t": "UDT:Script"
+    },
+    {
+      "n": "OnLogout",
+      "t": "UDT:Script"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "plant-cip",
+  "path": "[default]Plant/CIP",
+  "udt": "CIPSys",
+  "label": "CIP Skid",
+  "description": "Caustic/acid/rinse tanks with supply+return pumps, conductivity/temp/flow PVs, sequencer.",
+  "overrides": {}
+}

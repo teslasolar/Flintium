@@ -1,0 +1,11 @@
+{
+  "id": "plant-ps1",
+  "path": "[default]Plant/PS1",
+  "udt": "PumpStation",
+  "label": "Pump Station 1",
+  "description": "Triplex lift station with wet well, lead/lag rotation, and discharge header.",
+  "overrides": {
+    "Lead": 1,
+    "AutoRotate": true
+  }
+}

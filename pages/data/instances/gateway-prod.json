@@ -1,0 +1,12 @@
+{
+  "id": "gateway-prod",
+  "path": "[System]Gateway",
+  "udt": "GatewayNode",
+  "label": "Production Gateway",
+  "description": "Independent gateway: 2 OPC connections, Perspective project, audit NQ, transaction group.",
+  "overrides": {
+    "Name": "prod-gw-01",
+    "Role": "independent",
+    "Version": "8.1.x"
+  }
+}

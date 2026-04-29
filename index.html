@@ -4,48 +4,48 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Flintium — Ignition Faceplates for Rockwell PlantPAx</title>
-  <meta name="description" content="Browse, preview, and download Flintium's Ignition Vision faceplates, templates, and example HMI applications for Rockwell PlantPAx Process Library AOIs." />
+  <meta name="description" content="Browse Flintium's Ignition Vision faceplates, templates, demo apps, and generate new Ignition projects from reusable UDT building blocks." />
   <link rel="stylesheet" href="./pages/assets/style.css" />
 </head>
-<body>
-  <header class="site">
-    <div class="nav-inner">
-      <div class="brand"><span class="dot"></span> Flintium</div>
-      <nav class="links">
-        <a href="./index.html" class="active">Home</a>
-        <a href="./pages/faceplates.html">Faceplates</a>
-        <a href="./pages/templates.html">Templates</a>
-        <a href="./pages/demo.html">Demo Apps</a>
-        <a href="https://github.com/teslasolar/Flintium" target="_blank" rel="noopener">GitHub</a>
-      </nav>
-    </div>
-  </header>
+<body data-page="home">
+  <div data-include="header"></div>
 
   <main>
     <section class="hero">
       <h1>Ignition Faceplates for Rockwell PlantPAx</h1>
       <p>
         Flintium is a library of Ignition Vision faceplates, templates, and example screens
-        modeled after Rockwell's Process Library v4.10.01 AOIs. Browse the gallery, preview
-        thumbnails, and download the underlying resource files straight from GitHub.
+        modeled after Rockwell's Process Library v4.10.01 AOIs. Browse the gallery, generate
+        new Ignition projects from reusable UDT building blocks, or explore the live tag
+        database (TAG.DB v2) — all from a single static site.
       </p>
     </section>
 
     <div class="cards">
-      <a class="card" href="./pages/faceplates.html">
+      <a class="card" data-root-href="pages/faceplates.html">
         <h3>Faceplates &amp; Windows</h3>
         <p>Vision windows including faceplates, popups, and administration screens.</p>
         <span class="count"><strong id="count-windows">…</strong> windows</span>
       </a>
-      <a class="card" href="./pages/templates.html">
+      <a class="card" data-root-href="pages/templates.html">
         <h3>Templates</h3>
         <p>Reusable Vision templates: components, panels, icons, and display objects.</p>
         <span class="count"><strong id="count-templates">…</strong> templates</span>
       </a>
-      <a class="card" href="./pages/demo.html">
+      <a class="card" data-root-href="pages/demo.html">
         <h3>Demo Applications</h3>
         <p>Example HMI screens: tank farms, reactors, navigation, alarms, and more.</p>
         <span class="count"><strong id="count-examples">…</strong> demo screens</span>
+      </a>
+      <a class="card" data-root-href="pages/generator.html">
+        <h3>Project Generator</h3>
+        <p>Compose UDT instances and export an Ignition-importable tag JSON bundle.</p>
+        <span class="count"><strong id="count-udts">…</strong> UDT types</span>
+      </a>
+      <a class="card" data-root-href="pages/app/index.html">
+        <h3>TAG.DB v2 Console</h3>
+        <p>Live SQLite-backed tag DB, MCP tools, script console, and gateway probe.</p>
+        <span class="count">9 levels deep</span>
       </a>
       <a class="card" href="https://github.com/teslasolar/Flintium#readme" target="_blank" rel="noopener">
         <h3>Setup &amp; Docs</h3>
@@ -54,39 +54,32 @@
       </a>
     </div>
 
-    <h2 class="section-title">What's inside</h2>
+    <h2 class="section-title">Architecture</h2>
     <p style="color: var(--muted); max-width: 760px;">
-      This site is a static viewer for the Flintium repository. Every tile renders the
-      thumbnail Ignition saves alongside each Vision resource (window or template), and
-      links back to the source files on GitHub so you can download or import them into
-      your own Ignition gateway.
+      The site is data-driven. Page navigation is rendered from
+      <code>pages/assets/manifest.json</code>, every UDT type lives in its own file under
+      <code>pages/data/udts/</code>, and example tag instances live under
+      <code>pages/data/instances/</code>. Add a new UDT or instance by dropping a JSON file —
+      no HTML changes required.
     </p>
-
-    <div class="cards" style="margin-top: 16px;">
-      <div class="card">
-        <h3>Faceplate windows</h3>
-        <p>The Main and Advanced PlantPAx-style faceplates served by Flintium.</p>
-        <span class="count"><strong id="count-faceplates">…</strong> faceplates</span>
-      </div>
-      <div class="card">
-        <h3>Example HMI</h3>
-        <p>Reactor, tanks, heat exchanger, alarms, navigation, and scaling demos.</p>
-        <span class="count"><strong id="count-examples">…</strong> example screens</span>
-      </div>
-      <div class="card">
-        <h3>Open source</h3>
-        <p>MIT licensed. Issues, PRs, and forks welcome.</p>
-        <span class="count">Apache / MIT</span>
-      </div>
-    </div>
   </main>
 
-  <footer class="site">
-    Flintium · Ignition Vision faceplates for Rockwell PlantPAx ·
-    <a href="https://github.com/teslasolar/Flintium" target="_blank" rel="noopener">teslasolar/Flintium</a>
-  </footer>
+  <div data-include="footer"></div>
 
+  <script type="module" src="./pages/assets/layout.js"></script>
   <script src="./pages/assets/app.js"></script>
-  <script>window.Flintium.initIndex().catch((e) => console.error(e));</script>
+  <script type="module">
+    import { rootPrefix } from "./pages/assets/layout.js";
+    const prefix = rootPrefix();
+    const [catalog, udtIndex] = await Promise.all([
+      fetch(prefix + "pages/assets/catalog.json").then((r) => r.json()),
+      fetch(prefix + "pages/data/udts/index.json").then((r) => r.json()),
+    ]);
+    document.getElementById("count-windows").textContent = catalog.windows.length;
+    document.getElementById("count-templates").textContent = catalog.templates.length;
+    document.getElementById("count-examples").textContent =
+      catalog.windows.filter((x) => x.category === "ExampleMain").length;
+    document.getElementById("count-udts").textContent = udtIndex.count;
+  </script>
 </body>
 </html>

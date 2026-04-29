@@ -1,0 +1,43 @@
+{
+  "name": "ScanClass",
+  "parent": null,
+  "level": 0,
+  "group": "primitives",
+  "fields": [
+    {
+      "n": "Rate",
+      "t": "Int4",
+      "v": 1000
+    },
+    {
+      "n": "Factor",
+      "t": "Float8",
+      "v": 1
+    },
+    {
+      "n": "Stale",
+      "t": "Int4",
+      "v": 10000
+    },
+    {
+      "n": "LeaseTime",
+      "t": "Int4",
+      "v": 30000
+    },
+    {
+      "n": "Subscribed",
+      "t": "Boolean",
+      "v": true
+    },
+    {
+      "n": "Executing",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "OverrunCount",
+      "t": "Int4",
+      "v": 0
+    }
+  ]
+}

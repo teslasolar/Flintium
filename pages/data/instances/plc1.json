@@ -1,0 +1,13 @@
+{
+  "id": "plc1",
+  "path": "[Ignition OPC-UA Server]PLC1",
+  "udt": "PLCDevice",
+  "label": "PLC 1 (ControlLogix)",
+  "description": "3 racks × 8 slots; populates rack/slot/module structure for diagnostics.",
+  "overrides": {
+    "Name": "PLC1",
+    "IP": "192.168.1.10",
+    "Processor": "L83E",
+    "ScanRate": 50
+  }
+}

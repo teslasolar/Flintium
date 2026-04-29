@@ -1,0 +1,56 @@
+{
+  "name": "CIPSys",
+  "parent": null,
+  "level": 5,
+  "group": "systems",
+  "fields": [
+    {
+      "n": "CausticTk",
+      "t": "UDT:Tank"
+    },
+    {
+      "n": "AcidTk",
+      "t": "UDT:Tank"
+    },
+    {
+      "n": "RinseTk",
+      "t": "UDT:Tank"
+    },
+    {
+      "n": "SupplyPump",
+      "t": "UDT:Pump"
+    },
+    {
+      "n": "ReturnPump",
+      "t": "UDT:Pump"
+    },
+    {
+      "n": "ConductPV",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "TempPV",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "FlowPV",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "CIPSeq",
+      "t": "UDT:Sequencer"
+    },
+    {
+      "n": "Alarms",
+      "t": "UDT:AlarmSet"
+    },
+    {
+      "n": "CIPScript",
+      "t": "UDT:Script"
+    },
+    {
+      "n": "NQ_CIPLog",
+      "t": "UDT:NamedQuery"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "plant-conv1",
+  "path": "[default]Plant/Conv1",
+  "udt": "Conveyor",
+  "label": "Conveyor 1",
+  "description": "Belt conveyor with VFD, load cells, jam/E-stop interlocks, total weight calc.",
+  "overrides": {}
+}

@@ -1,0 +1,57 @@
+.H {
+  grid-area: H;
+  background: var(--card);
+  border-bottom: 1px solid var(--b);
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  gap: 5px;
+  font-size: 7px;
+}
+
+.L {
+  grid-area: L;
+  background: var(--card);
+  border-right: 1px solid var(--b);
+  overflow-y: auto;
+  font-size: 7px;
+}
+
+.C {
+  grid-area: C;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.R {
+  grid-area: R;
+  background: var(--card);
+  border-left: 1px solid var(--b);
+  overflow-y: auto;
+  font-size: 7px;
+}
+
+.B {
+  grid-area: B;
+  background: #040608;
+  border-top: 1px solid var(--b);
+  display: flex;
+  align-items: center;
+  padding: 0 6px;
+  gap: 4px;
+  font-size: 7px;
+}
+
+.ph {
+  font-size: 6px;
+  padding: 2px 6px;
+  color: var(--ig);
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  background: rgba(56, 181, 249, 0.03);
+  border-bottom: 1px solid var(--b);
+}
+
+.pb { padding: 3px 6px; }

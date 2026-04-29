@@ -1,0 +1,57 @@
+{
+  "name": "AnalogOutput",
+  "parent": null,
+  "level": 1,
+  "group": "signals",
+  "fields": [
+    {
+      "n": "SP",
+      "t": "Float8",
+      "v": 0
+    },
+    {
+      "n": "RB",
+      "t": "Float8",
+      "v": 0
+    },
+    {
+      "n": "EngUnits",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "EngLo",
+      "t": "Float8",
+      "v": 0
+    },
+    {
+      "n": "EngHi",
+      "t": "Float8",
+      "v": 100
+    },
+    {
+      "n": "ClampLo",
+      "t": "Float8",
+      "v": 0
+    },
+    {
+      "n": "ClampHi",
+      "t": "Float8",
+      "v": 100
+    },
+    {
+      "n": "RampRate",
+      "t": "Float8",
+      "v": 0
+    },
+    {
+      "n": "Tracking",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "Alarms",
+      "t": "UDT:AlarmSet"
+    }
+  ]
+}

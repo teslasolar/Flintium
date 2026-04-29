@@ -6,26 +6,15 @@
   <title>Demo Applications · Flintium</title>
   <link rel="stylesheet" href="./assets/style.css" />
 </head>
-<body>
-  <header class="site">
-    <div class="nav-inner">
-      <div class="brand"><span class="dot"></span> Flintium</div>
-      <nav class="links">
-        <a href="../index.html">Home</a>
-        <a href="./faceplates.html">Faceplates</a>
-        <a href="./templates.html">Templates</a>
-        <a href="./demo.html" class="active">Demo Apps</a>
-        <a href="https://github.com/teslasolar/Flintium" target="_blank" rel="noopener">GitHub</a>
-      </nav>
-    </div>
-  </header>
+<body data-page="demo">
+  <div data-include="header"></div>
 
   <main>
     <h1 class="section-title">Demo Applications <small><span id="count">…</span> example screens</small></h1>
     <p style="color: var(--muted); max-width: 760px;">
       The example HMI windows shipped with Flintium — process overviews, a reactor, tanks,
       heat exchangers, navigation, alarms, and a scaling test. Use the Docker quick-start
-      in the <a href="https://github.com/teslasolar/Flintium/blob/main/docker/README.md" target="_blank" rel="noopener">Docker README</a>
+      in the <a href="https://github.com/teslasolar/Flintium/blob/master/docker/README.md" target="_blank" rel="noopener">Docker README</a>
       to try them live.
     </p>
 
@@ -36,7 +25,7 @@
       <div class="card">
         <h3>1. Quick start with Docker</h3>
         <p>Spin up a preconfigured Ignition gateway with Flintium loaded.</p>
-        <a class="btn primary" style="margin-top: 12px;" href="https://github.com/teslasolar/Flintium/blob/main/docker/README.md" target="_blank" rel="noopener">Docker README →</a>
+        <a class="btn primary" style="margin-top: 12px;" href="https://github.com/teslasolar/Flintium/blob/master/docker/README.md" target="_blank" rel="noopener">Docker README →</a>
       </div>
       <div class="card">
         <h3>2. Manual install</h3>
@@ -48,12 +37,15 @@
         <p>Clone the repo into your Ignition projects folder and import resources.</p>
         <a class="btn primary" style="margin-top: 12px;" href="https://github.com/teslasolar/Flintium#manual-setup" target="_blank" rel="noopener">Manual setup →</a>
       </div>
+      <div class="card">
+        <h3>4. Generate a project</h3>
+        <p>Use the in-browser generator to compose UDT instances and download a tag bundle.</p>
+        <a class="btn primary" style="margin-top: 12px;" data-root-href="pages/generator.html">Open generator →</a>
+      </div>
     </div>
   </main>
 
-  <footer class="site">
-    <a href="../index.html">← Back to home</a>
-  </footer>
+  <div data-include="footer"></div>
 
   <div class="modal-backdrop" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
     <div class="modal" role="document">
@@ -65,6 +57,7 @@
     </div>
   </div>
 
+  <script type="module" src="./assets/layout.js"></script>
   <script src="./assets/app.js"></script>
   <script>window.Flintium.initDemo().catch((e) => console.error(e));</script>
 </body>

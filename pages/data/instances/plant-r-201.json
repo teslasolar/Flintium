@@ -1,0 +1,10 @@
+{
+  "id": "plant-r-201",
+  "path": "[default]Plant/R-201",
+  "udt": "Reactor",
+  "label": "Reactor 201",
+  "description": "Jacketed CSTR with pH/DO/conductivity, recirc pump, and acid/base dosing.",
+  "overrides": {
+    "Capacity": 1500
+  }
+}

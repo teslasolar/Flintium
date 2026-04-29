@@ -1,0 +1,12 @@
+{
+  "issues": [
+    ["Tag shows Bad quality", "Check OPC connection, verify PLC is online, check tag path spelling. system.opc.browseServer() to verify."],
+    ["Tags not updating", "Check scan class rate, verify PLC comm, look for subscription leasing issues. Gateway → OPC Connections status."],
+    ["Gateway connection lost", "Check network, verify ports 8088/8043 open, check gateway.log. Redundancy failover may apply."],
+    ["PLC comm failure", "Verify IP, check Ethernet cable, confirm PLC mode (RUN vs PROG). Check rack/slot/module config."],
+    ["History gaps", "Check historian settings, verify database connection, check disk space. Tag group execution rate matters."],
+    ["Alarm flooding", "Check alarm shelving, review setpoints, verify deadband settings. ISA-18.2: max 6 alarms/operator/hour."],
+    ["Perspective session timeout", "Check session timeout in project properties (default 300s). Verify gateway auth settings."],
+    ["Script scope error", "Gateway scripts use system.*, client scripts are Vision only. Perspective uses self.*, session.*, page.*."]
+  ]
+}

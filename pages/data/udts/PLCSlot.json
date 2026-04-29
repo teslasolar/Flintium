@@ -1,0 +1,32 @@
+{
+  "name": "PLCSlot",
+  "parent": null,
+  "level": 6,
+  "group": "plc",
+  "fields": [
+    {
+      "n": "Module",
+      "t": "UDT:PLCModule"
+    },
+    {
+      "n": "SlotNum",
+      "t": "Int4",
+      "v": 0
+    },
+    {
+      "n": "IOCount",
+      "t": "Int4",
+      "v": 0
+    },
+    {
+      "n": "Type",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Inhibited",
+      "t": "Boolean",
+      "v": false
+    }
+  ]
+}

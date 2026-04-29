@@ -1,0 +1,37 @@
+{
+  "name": "ExprTag",
+  "parent": null,
+  "level": 0,
+  "group": "primitives",
+  "fields": [
+    {
+      "n": "Expression",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Enabled",
+      "t": "Boolean",
+      "v": true
+    },
+    {
+      "n": "Value",
+      "t": "Float8",
+      "v": 0
+    },
+    {
+      "n": "Quality",
+      "t": "Int4",
+      "v": 192
+    },
+    {
+      "n": "ErrorMsg",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "ScanClass",
+      "t": "UDT:ScanClass"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "OnOffCtrl",
+  "parent": null,
+  "level": 2,
+  "group": "control",
+  "fields": [
+    {
+      "n": "PV",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "SP",
+      "t": "Float8",
+      "v": 0
+    },
+    {
+      "n": "Hyst",
+      "t": "Float8",
+      "v": 1
+    },
+    {
+      "n": "Output",
+      "t": "UDT:DiscreteOutput"
+    },
+    {
+      "n": "Alarms",
+      "t": "UDT:AlarmSet"
+    }
+  ]
+}

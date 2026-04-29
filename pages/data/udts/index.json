@@ -1,0 +1,350 @@
+{
+  "count": 37,
+  "groups": [
+    "control",
+    "equipment",
+    "gateway",
+    "opc-perspective",
+    "plc",
+    "primitives",
+    "signals",
+    "site",
+    "systems",
+    "vessels"
+  ],
+  "udts": [
+    {
+      "name": "Alarm",
+      "parent": null,
+      "level": 0,
+      "group": "primitives",
+      "fieldCount": 11,
+      "file": "Alarm.json",
+      "tokensApprox": 222
+    },
+    {
+      "name": "ScanClass",
+      "parent": null,
+      "level": 0,
+      "group": "primitives",
+      "fieldCount": 7,
+      "file": "ScanClass.json",
+      "tokensApprox": 150
+    },
+    {
+      "name": "ExprTag",
+      "parent": null,
+      "level": 0,
+      "group": "primitives",
+      "fieldCount": 6,
+      "file": "ExprTag.json",
+      "tokensApprox": 128
+    },
+    {
+      "name": "Script",
+      "parent": null,
+      "level": 0,
+      "group": "primitives",
+      "fieldCount": 8,
+      "file": "Script.json",
+      "tokensApprox": 169
+    },
+    {
+      "name": "NamedQuery",
+      "parent": null,
+      "level": 0,
+      "group": "primitives",
+      "fieldCount": 7,
+      "file": "NamedQuery.json",
+      "tokensApprox": 153
+    },
+    {
+      "name": "TransGroup",
+      "parent": null,
+      "level": 0,
+      "group": "primitives",
+      "fieldCount": 8,
+      "file": "TransGroup.json",
+      "tokensApprox": 161
+    },
+    {
+      "name": "AlarmSet",
+      "parent": null,
+      "level": 1,
+      "group": "signals",
+      "fieldCount": 11,
+      "file": "AlarmSet.json",
+      "tokensApprox": 189
+    },
+    {
+      "name": "AnalogInput",
+      "parent": null,
+      "level": 1,
+      "group": "signals",
+      "fieldCount": 11,
+      "file": "AnalogInput.json",
+      "tokensApprox": 207
+    },
+    {
+      "name": "AnalogOutput",
+      "parent": null,
+      "level": 1,
+      "group": "signals",
+      "fieldCount": 10,
+      "file": "AnalogOutput.json",
+      "tokensApprox": 195
+    },
+    {
+      "name": "DiscreteInput",
+      "parent": null,
+      "level": 1,
+      "group": "signals",
+      "fieldCount": 5,
+      "file": "DiscreteInput.json",
+      "tokensApprox": 110
+    },
+    {
+      "name": "DiscreteOutput",
+      "parent": null,
+      "level": 1,
+      "group": "signals",
+      "fieldCount": 6,
+      "file": "DiscreteOutput.json",
+      "tokensApprox": 133
+    },
+    {
+      "name": "PID",
+      "parent": null,
+      "level": 2,
+      "group": "control",
+      "fieldCount": 13,
+      "file": "PID.json",
+      "tokensApprox": 237
+    },
+    {
+      "name": "Sequencer",
+      "parent": null,
+      "level": 2,
+      "group": "control",
+      "fieldCount": 10,
+      "file": "Sequencer.json",
+      "tokensApprox": 192
+    },
+    {
+      "name": "OnOffCtrl",
+      "parent": null,
+      "level": 2,
+      "group": "control",
+      "fieldCount": 5,
+      "file": "OnOffCtrl.json",
+      "tokensApprox": 103
+    },
+    {
+      "name": "Valve",
+      "parent": null,
+      "level": 3,
+      "group": "equipment",
+      "fieldCount": 11,
+      "file": "Valve.json",
+      "tokensApprox": 205
+    },
+    {
+      "name": "Motor",
+      "parent": null,
+      "level": 3,
+      "group": "equipment",
+      "fieldCount": 15,
+      "file": "Motor.json",
+      "tokensApprox": 155
+    },
+    {
+      "name": "Pump",
+      "parent": "Motor",
+      "level": 3,
+      "group": "equipment",
+      "fieldCount": 7,
+      "file": "Pump.json",
+      "tokensApprox": 134
+    },
+    {
+      "name": "Conveyor",
+      "parent": "Motor",
+      "level": 3,
+      "group": "equipment",
+      "fieldCount": 5,
+      "file": "Conveyor.json",
+      "tokensApprox": 106
+    },
+    {
+      "name": "Heater",
+      "parent": null,
+      "level": 3,
+      "group": "equipment",
+      "fieldCount": 7,
+      "file": "Heater.json",
+      "tokensApprox": 132
+    },
+    {
+      "name": "Agitator",
+      "parent": "Motor",
+      "level": 3,
+      "group": "equipment",
+      "fieldCount": 2,
+      "file": "Agitator.json",
+      "tokensApprox": 55
+    },
+    {
+      "name": "Tank",
+      "parent": null,
+      "level": 4,
+      "group": "vessels",
+      "fieldCount": 19,
+      "file": "Tank.json",
+      "tokensApprox": 185
+    },
+    {
+      "name": "Reactor",
+      "parent": "Tank",
+      "level": 4,
+      "group": "vessels",
+      "fieldCount": 9,
+      "file": "Reactor.json",
+      "tokensApprox": 159
+    },
+    {
+      "name": "HeatExchanger",
+      "parent": null,
+      "level": 4,
+      "group": "vessels",
+      "fieldCount": 11,
+      "file": "HeatExchanger.json",
+      "tokensApprox": 195
+    },
+    {
+      "name": "PumpStation",
+      "parent": null,
+      "level": 5,
+      "group": "systems",
+      "fieldCount": 14,
+      "file": "PumpStation.json",
+      "tokensApprox": 240
+    },
+    {
+      "name": "BoilerSys",
+      "parent": null,
+      "level": 5,
+      "group": "systems",
+      "fieldCount": 10,
+      "file": "BoilerSys.json",
+      "tokensApprox": 175
+    },
+    {
+      "name": "CIPSys",
+      "parent": null,
+      "level": 5,
+      "group": "systems",
+      "fieldCount": 12,
+      "file": "CIPSys.json",
+      "tokensApprox": 206
+    },
+    {
+      "name": "PLCModule",
+      "parent": null,
+      "level": 6,
+      "group": "plc",
+      "fieldCount": 8,
+      "file": "PLCModule.json",
+      "tokensApprox": 161
+    },
+    {
+      "name": "PLCSlot",
+      "parent": null,
+      "level": 6,
+      "group": "plc",
+      "fieldCount": 5,
+      "file": "PLCSlot.json",
+      "tokensApprox": 107
+    },
+    {
+      "name": "PLCRack",
+      "parent": null,
+      "level": 6,
+      "group": "plc",
+      "fieldCount": 12,
+      "file": "PLCRack.json",
+      "tokensApprox": 202
+    },
+    {
+      "name": "PLCDevice",
+      "parent": null,
+      "level": 6,
+      "group": "plc",
+      "fieldCount": 11,
+      "file": "PLCDevice.json",
+      "tokensApprox": 201
+    },
+    {
+      "name": "OPCConn",
+      "parent": null,
+      "level": 7,
+      "group": "opc-perspective",
+      "fieldCount": 9,
+      "file": "OPCConn.json",
+      "tokensApprox": 178
+    },
+    {
+      "name": "PerspView",
+      "parent": null,
+      "level": 7,
+      "group": "opc-perspective",
+      "fieldCount": 9,
+      "file": "PerspView.json",
+      "tokensApprox": 176
+    },
+    {
+      "name": "PerspSession",
+      "parent": null,
+      "level": 7,
+      "group": "opc-perspective",
+      "fieldCount": 9,
+      "file": "PerspSession.json",
+      "tokensApprox": 174
+    },
+    {
+      "name": "PerspProject",
+      "parent": null,
+      "level": 7,
+      "group": "opc-perspective",
+      "fieldCount": 9,
+      "file": "PerspProject.json",
+      "tokensApprox": 179
+    },
+    {
+      "name": "GatewayNode",
+      "parent": null,
+      "level": 8,
+      "group": "gateway",
+      "fieldCount": 19,
+      "file": "GatewayNode.json",
+      "tokensApprox": 186
+    },
+    {
+      "name": "Area",
+      "parent": null,
+      "level": 9,
+      "group": "site",
+      "fieldCount": 12,
+      "file": "Area.json",
+      "tokensApprox": 200
+    },
+    {
+      "name": "Site",
+      "parent": null,
+      "level": 9,
+      "group": "site",
+      "fieldCount": 10,
+      "file": "Site.json",
+      "tokensApprox": 172
+    }
+  ]
+}

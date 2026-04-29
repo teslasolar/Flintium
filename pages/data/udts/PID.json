@@ -1,0 +1,68 @@
+{
+  "name": "PID",
+  "parent": null,
+  "level": 2,
+  "group": "control",
+  "fields": [
+    {
+      "n": "PV",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "SP",
+      "t": "UDT:AnalogOutput"
+    },
+    {
+      "n": "OUT",
+      "t": "UDT:AnalogOutput"
+    },
+    {
+      "n": "Kp",
+      "t": "Float8",
+      "v": 1
+    },
+    {
+      "n": "Ki",
+      "t": "Float8",
+      "v": 0.1
+    },
+    {
+      "n": "Kd",
+      "t": "Float8",
+      "v": 0.01
+    },
+    {
+      "n": "Mode",
+      "t": "Int4",
+      "v": 2
+    },
+    {
+      "n": "Manual",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "Tracking",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "WindupGuard",
+      "t": "Float8",
+      "v": 100
+    },
+    {
+      "n": "DeadBand",
+      "t": "Float8",
+      "v": 0.5
+    },
+    {
+      "n": "Output_Expr",
+      "t": "UDT:ExprTag"
+    },
+    {
+      "n": "Alarms",
+      "t": "UDT:AlarmSet"
+    }
+  ]
+}

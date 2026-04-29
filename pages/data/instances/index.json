@@ -1,0 +1,101 @@
+{
+  "count": 12,
+  "instances": [
+    {
+      "id": "plant-ps1",
+      "path": "[default]Plant/PS1",
+      "udt": "PumpStation",
+      "label": "Pump Station 1",
+      "file": "plant-ps1.json",
+      "tokensApprox": 66
+    },
+    {
+      "id": "plant-tk-101",
+      "path": "[default]Plant/TK-101",
+      "udt": "Tank",
+      "label": "Tank 101",
+      "file": "plant-tk-101.json",
+      "tokensApprox": 63
+    },
+    {
+      "id": "plant-r-201",
+      "path": "[default]Plant/R-201",
+      "udt": "Reactor",
+      "label": "Reactor 201",
+      "file": "plant-r-201.json",
+      "tokensApprox": 60
+    },
+    {
+      "id": "plant-hx-301",
+      "path": "[default]Plant/HX-301",
+      "udt": "HeatExchanger",
+      "label": "Heat Exchanger 301",
+      "file": "plant-hx-301.json",
+      "tokensApprox": 58
+    },
+    {
+      "id": "plant-cip",
+      "path": "[default]Plant/CIP",
+      "udt": "CIPSys",
+      "label": "CIP Skid",
+      "file": "plant-cip.json",
+      "tokensApprox": 56
+    },
+    {
+      "id": "plant-boiler",
+      "path": "[default]Plant/Boiler",
+      "udt": "BoilerSys",
+      "label": "Boiler",
+      "file": "plant-boiler.json",
+      "tokensApprox": 57
+    },
+    {
+      "id": "plant-conv1",
+      "path": "[default]Plant/Conv1",
+      "udt": "Conveyor",
+      "label": "Conveyor 1",
+      "file": "plant-conv1.json",
+      "tokensApprox": 55
+    },
+    {
+      "id": "plant-area-north",
+      "path": "[default]Plant/North",
+      "udt": "Area",
+      "label": "North Area",
+      "file": "plant-area-north.json",
+      "tokensApprox": 57
+    },
+    {
+      "id": "plc1",
+      "path": "[Ignition OPC-UA Server]PLC1",
+      "udt": "PLCDevice",
+      "label": "PLC 1 (ControlLogix)",
+      "file": "plc1.json",
+      "tokensApprox": 80
+    },
+    {
+      "id": "plc2",
+      "path": "[Ignition OPC-UA Server]PLC2",
+      "udt": "PLCDevice",
+      "label": "PLC 2 (CompactLogix)",
+      "file": "plc2.json",
+      "tokensApprox": 78
+    },
+    {
+      "id": "plc3",
+      "path": "[Ignition OPC-UA Server]PLC3",
+      "udt": "PLCDevice",
+      "label": "PLC 3 (Micro850)",
+      "file": "plc3.json",
+      "tokensApprox": 82
+    },
+    {
+      "id": "gateway-prod",
+      "path": "[System]Gateway",
+      "udt": "GatewayNode",
+      "label": "Production Gateway",
+      "file": "gateway-prod.json",
+      "tokensApprox": 80
+    }
+  ]
+}

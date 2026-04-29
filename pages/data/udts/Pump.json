@@ -1,0 +1,36 @@
+{
+  "name": "Pump",
+  "parent": "Motor",
+  "level": 3,
+  "group": "equipment",
+  "fields": [
+    {
+      "n": "Flow",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "DischPress",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "SuctPress",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "SealTemp",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "DiffPress",
+      "t": "UDT:ExprTag"
+    },
+    {
+      "n": "FlowPID",
+      "t": "UDT:PID"
+    },
+    {
+      "n": "MinFlowValve",
+      "t": "UDT:Valve"
+    }
+  ]
+}

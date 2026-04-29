@@ -1,0 +1,43 @@
+{
+  "name": "NamedQuery",
+  "parent": null,
+  "level": 0,
+  "group": "primitives",
+  "fields": [
+    {
+      "n": "Database",
+      "t": "String",
+      "v": "default"
+    },
+    {
+      "n": "Query",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "QueryType",
+      "t": "String",
+      "v": "SELECT"
+    },
+    {
+      "n": "Params",
+      "t": "String",
+      "v": "{}"
+    },
+    {
+      "n": "CacheSec",
+      "t": "Int4",
+      "v": 0
+    },
+    {
+      "n": "FallbackValue",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "AuthProfile",
+      "t": "String",
+      "v": ""
+    }
+  ]
+}

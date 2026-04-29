@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Generator · Flintium</title>
+  <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="stylesheet" href="./assets/generator/style.css" />
+</head>
+<body data-page="generator">
+  <div data-include="header"></div>
+
+  <main>
+    <h1 class="section-title">
+      Ignition Project Generator
+      <small>
+        <span id="count-presets-loaded">…</span> presets ·
+        <span id="count-udts-loaded">…</span> UDT types
+      </small>
+    </h1>
+    <p style="color: var(--muted); max-width: 760px;">
+      Compose an Ignition tag tree from reusable UDT presets. Each preset (Tank, Reactor,
+      Pump Station, PLC device, etc.) lives in its own JSON file under
+      <code>pages/data/instances/</code>; UDT definitions live under
+      <code>pages/data/udts/</code>. Pick presets, then export an Ignition-importable tag
+      JSON or a full bundle including UDT definitions.
+    </p>
+
+    <div class="name-row">
+      <label for="project-name">Project name</label>
+      <input id="project-name" type="text" value="FlintiumProject" />
+      <button id="btn-clear" class="btn">Clear</button>
+    </div>
+
+    <div class="summary-row">
+      <div class="stat"><strong id="sum-instances">0</strong><span>instances</span></div>
+      <div class="stat"><strong id="sum-tags">0</strong><span>leaf tags</span></div>
+      <div class="stat"><strong id="sum-udts">0</strong><span>UDT types used</span></div>
+    </div>
+
+    <div class="gen-grid">
+      <section class="gen-col">
+        <h2>Presets</h2>
+        <div id="palette"></div>
+      </section>
+      <section class="gen-col">
+        <h2>Project canvas</h2>
+        <div id="canvas-list"></div>
+
+        <h2 style="margin-top: 18px;">Preview</h2>
+        <div id="preview" class="preview-pane">Select an instance to preview its expanded tags.</div>
+
+        <div class="export-row">
+          <button id="btn-export-tags" class="btn primary">Download tags JSON</button>
+          <button id="btn-export-bundle" class="btn">Download full bundle</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div data-include="footer"></div>
+
+  <script type="module" src="./assets/layout.js"></script>
+  <script type="module">
+    import { initGenerator } from "./assets/generator/ui.js";
+    initGenerator().catch((e) => {
+      console.error(e);
+      document.getElementById("palette").innerHTML =
+        '<div class="empty">Failed to load registry: ' + e.message + "</div>";
+    });
+  </script>
+</body>
+</html>

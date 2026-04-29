@@ -1,0 +1,28 @@
+{
+  "name": "Conveyor",
+  "parent": "Motor",
+  "level": 3,
+  "group": "equipment",
+  "fields": [
+    {
+      "n": "BeltSpeed",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "LoadCells",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "Jammed",
+      "t": "UDT:DiscreteInput"
+    },
+    {
+      "n": "EStop",
+      "t": "UDT:DiscreteInput"
+    },
+    {
+      "n": "TotalWeight",
+      "t": "UDT:ExprTag"
+    }
+  ]
+}

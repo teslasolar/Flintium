@@ -1,0 +1,8 @@
+{
+  "id": "plant-boiler",
+  "path": "[default]Plant/Boiler",
+  "udt": "BoilerSys",
+  "label": "Boiler",
+  "description": "Single-drum boiler with feed pump, fuel valve, O2 trim PID, blowdown, burner sequencer.",
+  "overrides": {}
+}

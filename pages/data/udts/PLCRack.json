@@ -1,0 +1,58 @@
+{
+  "name": "PLCRack",
+  "parent": null,
+  "level": 6,
+  "group": "plc",
+  "fields": [
+    {
+      "n": "CPU",
+      "t": "UDT:PLCModule"
+    },
+    {
+      "n": "PS",
+      "t": "UDT:PLCModule"
+    },
+    {
+      "n": "Slot0",
+      "t": "UDT:PLCSlot"
+    },
+    {
+      "n": "Slot1",
+      "t": "UDT:PLCSlot"
+    },
+    {
+      "n": "Slot2",
+      "t": "UDT:PLCSlot"
+    },
+    {
+      "n": "Slot3",
+      "t": "UDT:PLCSlot"
+    },
+    {
+      "n": "Slot4",
+      "t": "UDT:PLCSlot"
+    },
+    {
+      "n": "Slot5",
+      "t": "UDT:PLCSlot"
+    },
+    {
+      "n": "Slot6",
+      "t": "UDT:PLCSlot"
+    },
+    {
+      "n": "Slot7",
+      "t": "UDT:PLCSlot"
+    },
+    {
+      "n": "RackNum",
+      "t": "Int4",
+      "v": 0
+    },
+    {
+      "n": "CommOK",
+      "t": "Boolean",
+      "v": true
+    }
+  ]
+}

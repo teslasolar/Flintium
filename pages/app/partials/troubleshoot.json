@@ -1,0 +1,10 @@
+{
+  "tag not updating": "Check: 1) OPC connection status 2) PLC mode (RUN) 3) Scan class rate 4) Tag subscription lease",
+  "quality bad": "Check: 1) PLC online? 2) Tag path correct? 3) Data type match? 4) system.opc.browseServer()",
+  "comm failure": "Check: 1) IP reachable? 2) Port open? 3) PLC in RUN? 4) Rack/slot config 5) Driver settings",
+  "gateway connection": "Check: 1) Network 2) Ports 8088/8043 3) Firewall 4) gateway.log 5) Redundancy",
+  "alarm flood": "Check: 1) Setpoints 2) Deadband 3) Shelving 4) ISA-18.2 target: <6/operator/hour",
+  "session timeout": "Check: 1) Project properties timeout 2) Auth source 3) IdP config 4) Session keepalive",
+  "script error": "Check: 1) Scope (gateway vs client vs session) 2) Import paths 3) Type coercion 4) system.util.getLogger",
+  "history gaps": "Check: 1) Historian config 2) DB connection 3) Disk space 4) Tag group execution rate"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "plant-hx-301",
+  "path": "[default]Plant/HX-301",
+  "udt": "HeatExchanger",
+  "label": "Heat Exchanger 301",
+  "description": "Shell-and-tube HX with hot/cold flows, control valve, duty + fouling calcs.",
+  "overrides": {}
+}

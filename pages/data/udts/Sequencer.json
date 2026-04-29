@@ -1,0 +1,55 @@
+{
+  "name": "Sequencer",
+  "parent": null,
+  "level": 2,
+  "group": "control",
+  "fields": [
+    {
+      "n": "Step",
+      "t": "Int4",
+      "v": 0
+    },
+    {
+      "n": "Total",
+      "t": "Int4",
+      "v": 0
+    },
+    {
+      "n": "Running",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "Paused",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "Timer",
+      "t": "Float8",
+      "v": 0
+    },
+    {
+      "n": "StepName",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Fault",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "StartScript",
+      "t": "UDT:Script"
+    },
+    {
+      "n": "StepScript",
+      "t": "UDT:Script"
+    },
+    {
+      "n": "Alarms",
+      "t": "UDT:AlarmSet"
+    }
+  ]
+}

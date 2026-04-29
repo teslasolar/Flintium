@@ -1,0 +1,48 @@
+{
+  "name": "Script",
+  "parent": null,
+  "level": 0,
+  "group": "primitives",
+  "fields": [
+    {
+      "n": "Code",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Scope",
+      "t": "String",
+      "v": "gateway"
+    },
+    {
+      "n": "Trigger",
+      "t": "String",
+      "v": "valueChanged"
+    },
+    {
+      "n": "Enabled",
+      "t": "Boolean",
+      "v": true
+    },
+    {
+      "n": "LastRun",
+      "t": "DateTime",
+      "v": ""
+    },
+    {
+      "n": "LastError",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "ExecCount",
+      "t": "Int4",
+      "v": 0
+    },
+    {
+      "n": "AvgExecMs",
+      "t": "Float8",
+      "v": 0
+    }
+  ]
+}

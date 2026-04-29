@@ -1,0 +1,13 @@
+{
+  "id": "plc3",
+  "path": "[Ignition OPC-UA Server]PLC3",
+  "udt": "PLCDevice",
+  "label": "PLC 3 (Micro850)",
+  "description": "Edge controller for skid; demonstrates same UDT works across processor classes.",
+  "overrides": {
+    "Name": "PLC3",
+    "IP": "192.168.1.12",
+    "Processor": "Micro850",
+    "ScanRate": 250
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Valve",
+  "parent": null,
+  "level": 3,
+  "group": "equipment",
+  "fields": [
+    {
+      "n": "Open",
+      "t": "UDT:DiscreteInput"
+    },
+    {
+      "n": "Closed",
+      "t": "UDT:DiscreteInput"
+    },
+    {
+      "n": "Open_CMD",
+      "t": "UDT:DiscreteOutput"
+    },
+    {
+      "n": "Close_CMD",
+      "t": "UDT:DiscreteOutput"
+    },
+    {
+      "n": "Position",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "Interlock",
+      "t": "UDT:DiscreteInput"
+    },
+    {
+      "n": "TravelTime",
+      "t": "Float8",
+      "v": 10
+    },
+    {
+      "n": "FailMode",
+      "t": "String",
+      "v": "close"
+    },
+    {
+      "n": "PositionPID",
+      "t": "UDT:PID"
+    },
+    {
+      "n": "Alarms",
+      "t": "UDT:AlarmSet"
+    },
+    {
+      "n": "OnChange",
+      "t": "UDT:Script"
+    }
+  ]
+}

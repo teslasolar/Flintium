@@ -1,0 +1,55 @@
+{
+  "name": "AlarmSet",
+  "parent": null,
+  "level": 1,
+  "group": "signals",
+  "fields": [
+    {
+      "n": "HiHi",
+      "t": "UDT:Alarm"
+    },
+    {
+      "n": "Hi",
+      "t": "UDT:Alarm"
+    },
+    {
+      "n": "Lo",
+      "t": "UDT:Alarm"
+    },
+    {
+      "n": "LoLo",
+      "t": "UDT:Alarm"
+    },
+    {
+      "n": "DevHi",
+      "t": "UDT:Alarm"
+    },
+    {
+      "n": "DevLo",
+      "t": "UDT:Alarm"
+    },
+    {
+      "n": "RateOfChange",
+      "t": "UDT:Alarm"
+    },
+    {
+      "n": "Stale",
+      "t": "UDT:Alarm"
+    },
+    {
+      "n": "Count",
+      "t": "Int4",
+      "v": 0
+    },
+    {
+      "n": "AnyActive",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "UnackedCount",
+      "t": "Int4",
+      "v": 0
+    }
+  ]
+}

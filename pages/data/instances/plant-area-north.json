@@ -1,0 +1,8 @@
+{
+  "id": "plant-area-north",
+  "path": "[default]Plant/North",
+  "udt": "Area",
+  "label": "North Area",
+  "description": "ISA-95 Area: PS×2, TK, Reactor, HX, CIP, Boiler, Conv×2, area view + KPI named query.",
+  "overrides": {}
+}

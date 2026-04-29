@@ -1,0 +1,36 @@
+{
+  "name": "Heater",
+  "parent": null,
+  "level": 3,
+  "group": "equipment",
+  "fields": [
+    {
+      "n": "Element",
+      "t": "UDT:DiscreteOutput"
+    },
+    {
+      "n": "TempPV",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "TempSP",
+      "t": "UDT:AnalogOutput"
+    },
+    {
+      "n": "TempPID",
+      "t": "UDT:PID"
+    },
+    {
+      "n": "SafetyTrip",
+      "t": "UDT:DiscreteInput"
+    },
+    {
+      "n": "Alarms",
+      "t": "UDT:AlarmSet"
+    },
+    {
+      "n": "Log",
+      "t": "UDT:Script"
+    }
+  ]
+}

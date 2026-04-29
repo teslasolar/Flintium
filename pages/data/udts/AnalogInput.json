@@ -1,0 +1,60 @@
+{
+  "name": "AnalogInput",
+  "parent": null,
+  "level": 1,
+  "group": "signals",
+  "fields": [
+    {
+      "n": "Raw",
+      "t": "Int4",
+      "v": 0
+    },
+    {
+      "n": "Scaled",
+      "t": "Float8",
+      "v": 0
+    },
+    {
+      "n": "EngUnits",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "RawLo",
+      "t": "Int4",
+      "v": 0
+    },
+    {
+      "n": "RawHi",
+      "t": "Int4",
+      "v": 32767
+    },
+    {
+      "n": "EngLo",
+      "t": "Float8",
+      "v": 0
+    },
+    {
+      "n": "EngHi",
+      "t": "Float8",
+      "v": 100
+    },
+    {
+      "n": "Clamped",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "ScanClass",
+      "t": "UDT:ScanClass"
+    },
+    {
+      "n": "Alarms",
+      "t": "UDT:AlarmSet"
+    },
+    {
+      "n": "OnChange",
+      "t": "UDT:Script"
+    }
+  ]
+}

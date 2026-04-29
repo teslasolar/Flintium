@@ -1,0 +1,48 @@
+{
+  "name": "Site",
+  "parent": null,
+  "level": 9,
+  "group": "site",
+  "fields": [
+    {
+      "n": "North",
+      "t": "UDT:Area"
+    },
+    {
+      "n": "South",
+      "t": "UDT:Area"
+    },
+    {
+      "n": "Gateway",
+      "t": "UDT:GatewayNode"
+    },
+    {
+      "n": "PLC1",
+      "t": "UDT:PLCDevice"
+    },
+    {
+      "n": "PLC2",
+      "t": "UDT:PLCDevice"
+    },
+    {
+      "n": "PLC3",
+      "t": "UDT:PLCDevice"
+    },
+    {
+      "n": "Alarms",
+      "t": "UDT:AlarmSet"
+    },
+    {
+      "n": "SiteView",
+      "t": "UDT:PerspView"
+    },
+    {
+      "n": "NQ_Report",
+      "t": "UDT:NamedQuery"
+    },
+    {
+      "n": "DailyScript",
+      "t": "UDT:Script"
+    }
+  ]
+}

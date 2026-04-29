@@ -1,0 +1,63 @@
+{
+  "name": "Alarm",
+  "parent": null,
+  "level": 0,
+  "group": "primitives",
+  "fields": [
+    {
+      "n": "Active",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "Acked",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "Setpoint",
+      "t": "Float8",
+      "v": 0
+    },
+    {
+      "n": "Deadband",
+      "t": "Float8",
+      "v": 0.5
+    },
+    {
+      "n": "Priority",
+      "t": "Int4",
+      "v": 3
+    },
+    {
+      "n": "Message",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Timestamp",
+      "t": "DateTime",
+      "v": ""
+    },
+    {
+      "n": "AckUser",
+      "t": "String",
+      "v": ""
+    },
+    {
+      "n": "Shelved",
+      "t": "Boolean",
+      "v": false
+    },
+    {
+      "n": "Pipeline",
+      "t": "String",
+      "v": "default"
+    },
+    {
+      "n": "DisplayPath",
+      "t": "String",
+      "v": ""
+    }
+  ]
+}

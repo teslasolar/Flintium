@@ -1,0 +1,44 @@
+{
+  "name": "Reactor",
+  "parent": "Tank",
+  "level": 4,
+  "group": "vessels",
+  "fields": [
+    {
+      "n": "pH",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "DO",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "Conductivity",
+      "t": "UDT:AnalogInput"
+    },
+    {
+      "n": "RecircPump",
+      "t": "UDT:Pump"
+    },
+    {
+      "n": "AcidValve",
+      "t": "UDT:Valve"
+    },
+    {
+      "n": "BaseValve",
+      "t": "UDT:Valve"
+    },
+    {
+      "n": "pHPID",
+      "t": "UDT:PID"
+    },
+    {
+      "n": "DOPID",
+      "t": "UDT:PID"
+    },
+    {
+      "n": "RecipeNQ",
+      "t": "UDT:NamedQuery"
+    }
+  ]
+}
