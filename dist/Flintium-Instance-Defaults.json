@@ -1,0 +1,151 @@
+{
+  "name": "FlintiumInstances",
+  "instances": [
+    {
+      "path": "Plant/PS1",
+      "udt": "PumpStation",
+      "definition": {
+        "name": "PS1",
+        "tagType": "UdtInstance",
+        "typeId": "Flintium/PumpStation",
+        "parameters": {
+          "Lead": 1,
+          "AutoRotate": true
+        }
+      }
+    },
+    {
+      "path": "Plant/TK-101",
+      "udt": "Tank",
+      "definition": {
+        "name": "TK-101",
+        "tagType": "UdtInstance",
+        "typeId": "Flintium/Tank",
+        "parameters": {
+          "Capacity": 2500
+        }
+      }
+    },
+    {
+      "path": "Plant/R-201",
+      "udt": "Reactor",
+      "definition": {
+        "name": "R-201",
+        "tagType": "UdtInstance",
+        "typeId": "Flintium/Reactor",
+        "parameters": {
+          "Capacity": 1500
+        }
+      }
+    },
+    {
+      "path": "Plant/HX-301",
+      "udt": "HeatExchanger",
+      "definition": {
+        "name": "HX-301",
+        "tagType": "UdtInstance",
+        "typeId": "Flintium/HeatExchanger",
+        "parameters": {}
+      }
+    },
+    {
+      "path": "Plant/CIP",
+      "udt": "CIPSys",
+      "definition": {
+        "name": "CIP",
+        "tagType": "UdtInstance",
+        "typeId": "Flintium/CIPSys",
+        "parameters": {}
+      }
+    },
+    {
+      "path": "Plant/Boiler",
+      "udt": "BoilerSys",
+      "definition": {
+        "name": "Boiler",
+        "tagType": "UdtInstance",
+        "typeId": "Flintium/BoilerSys",
+        "parameters": {}
+      }
+    },
+    {
+      "path": "Plant/Conv1",
+      "udt": "Conveyor",
+      "definition": {
+        "name": "Conv1",
+        "tagType": "UdtInstance",
+        "typeId": "Flintium/Conveyor",
+        "parameters": {}
+      }
+    },
+    {
+      "path": "Plant/North",
+      "udt": "Area",
+      "definition": {
+        "name": "North",
+        "tagType": "UdtInstance",
+        "typeId": "Flintium/Area",
+        "parameters": {}
+      }
+    },
+    {
+      "path": "PLC1",
+      "udt": "PLCDevice",
+      "definition": {
+        "name": "PLC1",
+        "tagType": "UdtInstance",
+        "typeId": "Flintium/PLCDevice",
+        "parameters": {
+          "Name": "PLC1",
+          "IP": "192.168.1.10",
+          "Processor": "L83E",
+          "ScanRate": 50
+        }
+      }
+    },
+    {
+      "path": "PLC2",
+      "udt": "PLCDevice",
+      "definition": {
+        "name": "PLC2",
+        "tagType": "UdtInstance",
+        "typeId": "Flintium/PLCDevice",
+        "parameters": {
+          "Name": "PLC2",
+          "IP": "192.168.1.11",
+          "Processor": "L33ER",
+          "ScanRate": 100
+        }
+      }
+    },
+    {
+      "path": "PLC3",
+      "udt": "PLCDevice",
+      "definition": {
+        "name": "PLC3",
+        "tagType": "UdtInstance",
+        "typeId": "Flintium/PLCDevice",
+        "parameters": {
+          "Name": "PLC3",
+          "IP": "192.168.1.12",
+          "Processor": "Micro850",
+          "ScanRate": 250
+        }
+      }
+    },
+    {
+      "path": "Gateway",
+      "udt": "GatewayNode",
+      "definition": {
+        "name": "Gateway",
+        "tagType": "UdtInstance",
+        "typeId": "Flintium/GatewayNode",
+        "parameters": {
+          "Name": "prod-gw-01",
+          "Role": "independent",
+          "Version": "8.1.x"
+        }
+      }
+    }
+  ]
+}

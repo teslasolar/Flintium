@@ -53,7 +53,16 @@
         <div class="export-row">
           <button id="btn-export-tags" class="btn primary">Download tags JSON</button>
           <button id="btn-export-bundle" class="btn">Download full bundle</button>
+          <a class="btn" data-root-href="dist/Flintium-Perspective-Project.zip" download>Perspective project (.zip)</a>
+          <a class="btn" data-root-href="dist/Flintium-UDT-Tags.json" download>UDT type library</a>
         </div>
+        <p style="color: var(--muted); font-size: 13px; margin-top: 12px;">
+          The static <strong>Perspective project</strong> ships every UDT type, four starter
+          views (Home, UDTBrowser, Generator, Tools), and a Jython <code>flintium.tools</code>
+          script library that wraps <code>system.tag</code>, <code>system.alarm</code>, and
+          friends. Import via <em>Gateway → Config → Projects → Import</em>; import the
+          tag file via <em>Designer → Tag Browser → Import</em>.
+        </p>
       </section>
     </div>
   </main>

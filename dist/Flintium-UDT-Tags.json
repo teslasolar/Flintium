@@ -1,0 +1,2311 @@
+{
+  "name": "Flintium",
+  "tagType": "Folder",
+  "tags": [
+    {
+      "name": "_types_",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "Alarm",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Active",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "Acked",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "Setpoint",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0
+            },
+            {
+              "name": "Deadband",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0.5
+            },
+            {
+              "name": "Priority",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 3
+            },
+            {
+              "name": "Message",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Timestamp",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "DateTime",
+              "value": ""
+            },
+            {
+              "name": "AckUser",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Shelved",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "Pipeline",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": "default"
+            },
+            {
+              "name": "DisplayPath",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "name": "ScanClass",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Rate",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 1000
+            },
+            {
+              "name": "Factor",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 1
+            },
+            {
+              "name": "Stale",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 10000
+            },
+            {
+              "name": "LeaseTime",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 30000
+            },
+            {
+              "name": "Subscribed",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": true
+            },
+            {
+              "name": "Executing",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "OverrunCount",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "ExprTag",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Expression",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Enabled",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": true
+            },
+            {
+              "name": "Value",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0
+            },
+            {
+              "name": "Quality",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 192
+            },
+            {
+              "name": "ErrorMsg",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "ScanClass",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/ScanClass"
+            }
+          ]
+        },
+        {
+          "name": "Script",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Code",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Scope",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": "gateway"
+            },
+            {
+              "name": "Trigger",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": "valueChanged"
+            },
+            {
+              "name": "Enabled",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": true
+            },
+            {
+              "name": "LastRun",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "DateTime",
+              "value": ""
+            },
+            {
+              "name": "LastError",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "ExecCount",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "AvgExecMs",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "NamedQuery",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Database",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": "default"
+            },
+            {
+              "name": "Query",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "QueryType",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": "SELECT"
+            },
+            {
+              "name": "Params",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": "{}"
+            },
+            {
+              "name": "CacheSec",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "FallbackValue",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "AuthProfile",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "name": "TransGroup",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Name",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Enabled",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": true
+            },
+            {
+              "name": "Rate",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 1000
+            },
+            {
+              "name": "Table",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Mode",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": "history"
+            },
+            {
+              "name": "Items",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "DB",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": "default"
+            },
+            {
+              "name": "Script",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            }
+          ]
+        },
+        {
+          "name": "AlarmSet",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "HiHi",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Alarm"
+            },
+            {
+              "name": "Hi",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Alarm"
+            },
+            {
+              "name": "Lo",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Alarm"
+            },
+            {
+              "name": "LoLo",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Alarm"
+            },
+            {
+              "name": "DevHi",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Alarm"
+            },
+            {
+              "name": "DevLo",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Alarm"
+            },
+            {
+              "name": "RateOfChange",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Alarm"
+            },
+            {
+              "name": "Stale",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Alarm"
+            },
+            {
+              "name": "Count",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "AnyActive",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "UnackedCount",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "AnalogInput",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Raw",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "Scaled",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0
+            },
+            {
+              "name": "EngUnits",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "RawLo",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "RawHi",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 32767
+            },
+            {
+              "name": "EngLo",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0
+            },
+            {
+              "name": "EngHi",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 100
+            },
+            {
+              "name": "Clamped",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "ScanClass",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/ScanClass"
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            },
+            {
+              "name": "OnChange",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            }
+          ]
+        },
+        {
+          "name": "AnalogOutput",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "SP",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0
+            },
+            {
+              "name": "RB",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0
+            },
+            {
+              "name": "EngUnits",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "EngLo",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0
+            },
+            {
+              "name": "EngHi",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 100
+            },
+            {
+              "name": "ClampLo",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0
+            },
+            {
+              "name": "ClampHi",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 100
+            },
+            {
+              "name": "RampRate",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0
+            },
+            {
+              "name": "Tracking",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            }
+          ]
+        },
+        {
+          "name": "DiscreteInput",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Value",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "OnDelay",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "OffDelay",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "Inverted",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            }
+          ]
+        },
+        {
+          "name": "DiscreteOutput",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "CMD",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "FB",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "Pulse",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "PulseTime",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 500
+            },
+            {
+              "name": "Interlock",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "InterlockMsg",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "name": "PID",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "PV",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "SP",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogOutput"
+            },
+            {
+              "name": "OUT",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogOutput"
+            },
+            {
+              "name": "Kp",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 1
+            },
+            {
+              "name": "Ki",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0.1
+            },
+            {
+              "name": "Kd",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0.01
+            },
+            {
+              "name": "Mode",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 2
+            },
+            {
+              "name": "Manual",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "Tracking",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "WindupGuard",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 100
+            },
+            {
+              "name": "DeadBand",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0.5
+            },
+            {
+              "name": "Output_Expr",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/ExprTag"
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            }
+          ]
+        },
+        {
+          "name": "Sequencer",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Step",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "Total",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "Running",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "Paused",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "Timer",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0
+            },
+            {
+              "name": "StepName",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Fault",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "StartScript",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            },
+            {
+              "name": "StepScript",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            }
+          ]
+        },
+        {
+          "name": "OnOffCtrl",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "PV",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "SP",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0
+            },
+            {
+              "name": "Hyst",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 1
+            },
+            {
+              "name": "Output",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/DiscreteOutput"
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            }
+          ]
+        },
+        {
+          "name": "Valve",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Open",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/DiscreteInput"
+            },
+            {
+              "name": "Closed",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/DiscreteInput"
+            },
+            {
+              "name": "Open_CMD",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/DiscreteOutput"
+            },
+            {
+              "name": "Close_CMD",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/DiscreteOutput"
+            },
+            {
+              "name": "Position",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "Interlock",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/DiscreteInput"
+            },
+            {
+              "name": "TravelTime",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 10
+            },
+            {
+              "name": "FailMode",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": "close"
+            },
+            {
+              "name": "PositionPID",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PID"
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            },
+            {
+              "name": "OnChange",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            }
+          ]
+        },
+        {
+          "name": "Motor",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Running",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/DiscreteInput"
+            },
+            {
+              "name": "Fault",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/DiscreteInput"
+            },
+            {
+              "name": "Ready",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/DiscreteInput"
+            },
+            {
+              "name": "Start_CMD",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/DiscreteOutput"
+            },
+            {
+              "name": "Stop_CMD",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/DiscreteOutput"
+            },
+            {
+              "name": "Amps",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "Speed",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "HOA",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "RunHours",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0
+            },
+            {
+              "name": "StartCount",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "VFD_Freq",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogOutput"
+            },
+            {
+              "name": "VFD_FB",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            },
+            {
+              "name": "OnFault",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            },
+            {
+              "name": "RunCalc",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/ExprTag"
+            }
+          ]
+        },
+        {
+          "name": "Pump",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Flow",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "DischPress",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "SuctPress",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "SealTemp",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "DiffPress",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/ExprTag"
+            },
+            {
+              "name": "FlowPID",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PID"
+            },
+            {
+              "name": "MinFlowValve",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Valve"
+            }
+          ],
+          "typeId": "Flintium/Motor"
+        },
+        {
+          "name": "Conveyor",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "BeltSpeed",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "LoadCells",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "Jammed",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/DiscreteInput"
+            },
+            {
+              "name": "EStop",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/DiscreteInput"
+            },
+            {
+              "name": "TotalWeight",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/ExprTag"
+            }
+          ],
+          "typeId": "Flintium/Motor"
+        },
+        {
+          "name": "Heater",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Element",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/DiscreteOutput"
+            },
+            {
+              "name": "TempPV",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "TempSP",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogOutput"
+            },
+            {
+              "name": "TempPID",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PID"
+            },
+            {
+              "name": "SafetyTrip",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/DiscreteInput"
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            },
+            {
+              "name": "Log",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            }
+          ]
+        },
+        {
+          "name": "Agitator",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Torque",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "SpeedPID",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PID"
+            }
+          ],
+          "typeId": "Flintium/Motor"
+        },
+        {
+          "name": "Tank",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Level",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "Temp",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "Pressure",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "Weight",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "Volume",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/ExprTag"
+            },
+            {
+              "name": "Capacity",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 1000
+            },
+            {
+              "name": "InletValve",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Valve"
+            },
+            {
+              "name": "OutletValve",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Valve"
+            },
+            {
+              "name": "DrainValve",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Valve"
+            },
+            {
+              "name": "ReliefValve",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Valve"
+            },
+            {
+              "name": "Agitator",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Agitator"
+            },
+            {
+              "name": "Heater",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Heater"
+            },
+            {
+              "name": "LevelPID",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PID"
+            },
+            {
+              "name": "TempPID",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PID"
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            },
+            {
+              "name": "BatchSeq",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Sequencer"
+            },
+            {
+              "name": "CIPScript",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            },
+            {
+              "name": "NQ_History",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/NamedQuery"
+            },
+            {
+              "name": "TxGroup",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/TransGroup"
+            }
+          ]
+        },
+        {
+          "name": "Reactor",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "pH",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "DO",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "Conductivity",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "RecircPump",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Pump"
+            },
+            {
+              "name": "AcidValve",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Valve"
+            },
+            {
+              "name": "BaseValve",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Valve"
+            },
+            {
+              "name": "pHPID",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PID"
+            },
+            {
+              "name": "DOPID",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PID"
+            },
+            {
+              "name": "RecipeNQ",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/NamedQuery"
+            }
+          ],
+          "typeId": "Flintium/Tank"
+        },
+        {
+          "name": "HeatExchanger",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "HotIn",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "HotOut",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "ColdIn",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "ColdOut",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "HotFlow",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "ColdFlow",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "CtrlValve",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Valve"
+            },
+            {
+              "name": "TempPID",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PID"
+            },
+            {
+              "name": "DutyCalc",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/ExprTag"
+            },
+            {
+              "name": "FoulingCalc",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/ExprTag"
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            }
+          ]
+        },
+        {
+          "name": "PumpStation",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Lead",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 1
+            },
+            {
+              "name": "AutoRotate",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": true
+            },
+            {
+              "name": "Pump1",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Pump"
+            },
+            {
+              "name": "Pump2",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Pump"
+            },
+            {
+              "name": "Pump3",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Pump"
+            },
+            {
+              "name": "WetWell",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Tank"
+            },
+            {
+              "name": "DischargeHdr",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "CheckValve",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Valve"
+            },
+            {
+              "name": "IsoValve",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Valve"
+            },
+            {
+              "name": "LeadLag",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Sequencer"
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            },
+            {
+              "name": "NQ_Report",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/NamedQuery"
+            },
+            {
+              "name": "DailyCalc",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/ExprTag"
+            },
+            {
+              "name": "RunScript",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            }
+          ]
+        },
+        {
+          "name": "BoilerSys",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Boiler",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Tank"
+            },
+            {
+              "name": "FeedPump",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Pump"
+            },
+            {
+              "name": "FuelValve",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Valve"
+            },
+            {
+              "name": "SteamHdr",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "StackTemp",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "O2Trim",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PID"
+            },
+            {
+              "name": "Blowdown",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Valve"
+            },
+            {
+              "name": "BurnerSeq",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Sequencer"
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            },
+            {
+              "name": "EffCalc",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/ExprTag"
+            }
+          ]
+        },
+        {
+          "name": "CIPSys",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "CausticTk",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Tank"
+            },
+            {
+              "name": "AcidTk",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Tank"
+            },
+            {
+              "name": "RinseTk",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Tank"
+            },
+            {
+              "name": "SupplyPump",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Pump"
+            },
+            {
+              "name": "ReturnPump",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Pump"
+            },
+            {
+              "name": "ConductPV",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "TempPV",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "FlowPV",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AnalogInput"
+            },
+            {
+              "name": "CIPSeq",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Sequencer"
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            },
+            {
+              "name": "CIPScript",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            },
+            {
+              "name": "NQ_CIPLog",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/NamedQuery"
+            }
+          ]
+        },
+        {
+          "name": "PLCModule",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Type",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "FwVer",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Status",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "Fault",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "CommOK",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": true
+            },
+            {
+              "name": "DiagCode",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "Serial",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Catalog",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "name": "PLCSlot",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Module",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PLCModule"
+            },
+            {
+              "name": "SlotNum",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "IOCount",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "Type",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Inhibited",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            }
+          ]
+        },
+        {
+          "name": "PLCRack",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "CPU",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PLCModule"
+            },
+            {
+              "name": "PS",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PLCModule"
+            },
+            {
+              "name": "Slot0",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PLCSlot"
+            },
+            {
+              "name": "Slot1",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PLCSlot"
+            },
+            {
+              "name": "Slot2",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PLCSlot"
+            },
+            {
+              "name": "Slot3",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PLCSlot"
+            },
+            {
+              "name": "Slot4",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PLCSlot"
+            },
+            {
+              "name": "Slot5",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PLCSlot"
+            },
+            {
+              "name": "Slot6",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PLCSlot"
+            },
+            {
+              "name": "Slot7",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PLCSlot"
+            },
+            {
+              "name": "RackNum",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "CommOK",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "name": "PLCDevice",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Name",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "IP",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Processor",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Rack0",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PLCRack"
+            },
+            {
+              "name": "Rack1",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PLCRack"
+            },
+            {
+              "name": "Rack2",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PLCRack"
+            },
+            {
+              "name": "CommOK",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": true
+            },
+            {
+              "name": "ScanRate",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 1000
+            },
+            {
+              "name": "KeySwitch",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 1
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            },
+            {
+              "name": "DiagScript",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            }
+          ]
+        },
+        {
+          "name": "OPCConn",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Server",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Endpoint",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Connected",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Boolean",
+              "value": false
+            },
+            {
+              "name": "Items",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "ReadRate",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 1000
+            },
+            {
+              "name": "Security",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": "None"
+            },
+            {
+              "name": "Device",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PLCDevice"
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            },
+            {
+              "name": "ConnScript",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            }
+          ]
+        },
+        {
+          "name": "PerspView",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Path",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Params",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": "{}"
+            },
+            {
+              "name": "Width",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 800
+            },
+            {
+              "name": "Height",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 600
+            },
+            {
+              "name": "Permission",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Bindings",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "OnStartup",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            },
+            {
+              "name": "TagBinding",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/ExprTag"
+            },
+            {
+              "name": "NQ_Data",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/NamedQuery"
+            }
+          ]
+        },
+        {
+          "name": "PerspSession",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "User",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Roles",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Locale",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "TZ",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Page",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PerspView"
+            },
+            {
+              "name": "Timeout",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 300
+            },
+            {
+              "name": "Theme",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": "dark"
+            },
+            {
+              "name": "OnLogin",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            },
+            {
+              "name": "OnLogout",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            }
+          ]
+        },
+        {
+          "name": "PerspProject",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Name",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Title",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "DefaultView",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PerspView"
+            },
+            {
+              "name": "LoginView",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PerspView"
+            },
+            {
+              "name": "Session",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PerspSession"
+            },
+            {
+              "name": "AuthProfile",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "IdleTimeout",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 300
+            },
+            {
+              "name": "StartupScript",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            },
+            {
+              "name": "ShutdownScript",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            }
+          ]
+        },
+        {
+          "name": "GatewayNode",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Name",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "URL",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Role",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": "independent"
+            },
+            {
+              "name": "Version",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "Uptime",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0
+            },
+            {
+              "name": "CPU",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0
+            },
+            {
+              "name": "Memory",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Float8",
+              "value": 0
+            },
+            {
+              "name": "ActiveSessions",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "TagCount",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "AlarmCount",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "DBConns",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "Int4",
+              "value": 0
+            },
+            {
+              "name": "License",
+              "tagType": "AtomicTag",
+              "valueSource": "memory",
+              "dataType": "String",
+              "value": ""
+            },
+            {
+              "name": "OPC1",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/OPCConn"
+            },
+            {
+              "name": "OPC2",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/OPCConn"
+            },
+            {
+              "name": "Project",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PerspProject"
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            },
+            {
+              "name": "HealthScript",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            },
+            {
+              "name": "NQ_Audit",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/NamedQuery"
+            },
+            {
+              "name": "TxGroup",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/TransGroup"
+            }
+          ]
+        },
+        {
+          "name": "Area",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "PS1",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PumpStation"
+            },
+            {
+              "name": "PS2",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PumpStation"
+            },
+            {
+              "name": "TK1",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Tank"
+            },
+            {
+              "name": "TK2",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Reactor"
+            },
+            {
+              "name": "HX1",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/HeatExchanger"
+            },
+            {
+              "name": "CIP",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/CIPSys"
+            },
+            {
+              "name": "Boiler",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/BoilerSys"
+            },
+            {
+              "name": "Conv1",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Conveyor"
+            },
+            {
+              "name": "Conv2",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Conveyor"
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            },
+            {
+              "name": "AreaView",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PerspView"
+            },
+            {
+              "name": "NQ_KPIs",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/NamedQuery"
+            }
+          ]
+        },
+        {
+          "name": "Site",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "North",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Area"
+            },
+            {
+              "name": "South",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Area"
+            },
+            {
+              "name": "Gateway",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/GatewayNode"
+            },
+            {
+              "name": "PLC1",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PLCDevice"
+            },
+            {
+              "name": "PLC2",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PLCDevice"
+            },
+            {
+              "name": "PLC3",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PLCDevice"
+            },
+            {
+              "name": "Alarms",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/AlarmSet"
+            },
+            {
+              "name": "SiteView",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/PerspView"
+            },
+            {
+              "name": "NQ_Report",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/NamedQuery"
+            },
+            {
+              "name": "DailyScript",
+              "tagType": "UdtInstance",
+              "typeId": "Flintium/Script"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
