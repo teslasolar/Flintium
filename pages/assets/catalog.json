@@ -1,7 +1,7 @@
 {
   "generated": "static",
   "repo": "teslasolar/Flintium",
-  "branch": "main",
+  "branch": "master",
   "windows": [
     {
       "name": "ExportImportRolesAndUsers",

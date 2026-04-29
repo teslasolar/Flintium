@@ -2,7 +2,7 @@
 // Resolves catalog.json relative to this script and renders galleries.
 
 const REPO = "teslasolar/Flintium";
-const BRANCH = "main";
+const BRANCH = "master";
 
 const state = {
   catalog: null,
