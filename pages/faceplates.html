@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Faceplates &amp; Windows · Flintium</title>
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+  <header class="site">
+    <div class="nav-inner">
+      <div class="brand"><span class="dot"></span> Flintium</div>
+      <nav class="links">
+        <a href="../index.html">Home</a>
+        <a href="./faceplates.html" class="active">Faceplates</a>
+        <a href="./templates.html">Templates</a>
+        <a href="./demo.html">Demo Apps</a>
+        <a href="https://github.com/teslasolar/Flintium" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="section-title">Faceplates &amp; Windows <small><span id="count">…</span> resources</small></h1>
+    <p style="color: var(--muted); max-width: 720px;">
+      Vision windows: PlantPAx-style faceplates, miscellaneous popups, administration
+      screens, and example main HMI windows. Click a tile to preview and download.
+    </p>
+
+    <div id="toolbar"></div>
+    <div id="gallery" class="gallery"></div>
+  </main>
+
+  <footer class="site">
+    <a href="../index.html">← Back to home</a>
+  </footer>
+
+  <div class="modal-backdrop" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal" role="document">
+      <div class="modal-head">
+        <h2 id="modal-title">Item</h2>
+        <button aria-label="Close">×</button>
+      </div>
+      <div class="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="./assets/app.js"></script>
+  <script>window.Flintium.initGalleryPage("windows").catch((e) => console.error(e));</script>
+</body>
+</html>

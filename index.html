@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Flintium — Ignition Faceplates for Rockwell PlantPAx</title>
+  <meta name="description" content="Browse, preview, and download Flintium's Ignition Vision faceplates, templates, and example HMI applications for Rockwell PlantPAx Process Library AOIs." />
+  <link rel="stylesheet" href="./pages/assets/style.css" />
+</head>
+<body>
+  <header class="site">
+    <div class="nav-inner">
+      <div class="brand"><span class="dot"></span> Flintium</div>
+      <nav class="links">
+        <a href="./index.html" class="active">Home</a>
+        <a href="./pages/faceplates.html">Faceplates</a>
+        <a href="./pages/templates.html">Templates</a>
+        <a href="./pages/demo.html">Demo Apps</a>
+        <a href="https://github.com/teslasolar/Flintium" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Ignition Faceplates for Rockwell PlantPAx</h1>
+      <p>
+        Flintium is a library of Ignition Vision faceplates, templates, and example screens
+        modeled after Rockwell's Process Library v4.10.01 AOIs. Browse the gallery, preview
+        thumbnails, and download the underlying resource files straight from GitHub.
+      </p>
+    </section>
+
+    <div class="cards">
+      <a class="card" href="./pages/faceplates.html">
+        <h3>Faceplates &amp; Windows</h3>
+        <p>Vision windows including faceplates, popups, and administration screens.</p>
+        <span class="count"><strong id="count-windows">…</strong> windows</span>
+      </a>
+      <a class="card" href="./pages/templates.html">
+        <h3>Templates</h3>
+        <p>Reusable Vision templates: components, panels, icons, and display objects.</p>
+        <span class="count"><strong id="count-templates">…</strong> templates</span>
+      </a>
+      <a class="card" href="./pages/demo.html">
+        <h3>Demo Applications</h3>
+        <p>Example HMI screens: tank farms, reactors, navigation, alarms, and more.</p>
+        <span class="count"><strong id="count-examples">…</strong> demo screens</span>
+      </a>
+      <a class="card" href="https://github.com/teslasolar/Flintium#readme" target="_blank" rel="noopener">
+        <h3>Setup &amp; Docs</h3>
+        <p>Docker quick-start, manual setup, database, modules, and PLC configuration.</p>
+        <span class="count">README →</span>
+      </a>
+    </div>
+
+    <h2 class="section-title">What's inside</h2>
+    <p style="color: var(--muted); max-width: 760px;">
+      This site is a static viewer for the Flintium repository. Every tile renders the
+      thumbnail Ignition saves alongside each Vision resource (window or template), and
+      links back to the source files on GitHub so you can download or import them into
+      your own Ignition gateway.
+    </p>
+
+    <div class="cards" style="margin-top: 16px;">
+      <div class="card">
+        <h3>Faceplate windows</h3>
+        <p>The Main and Advanced PlantPAx-style faceplates served by Flintium.</p>
+        <span class="count"><strong id="count-faceplates">…</strong> faceplates</span>
+      </div>
+      <div class="card">
+        <h3>Example HMI</h3>
+        <p>Reactor, tanks, heat exchanger, alarms, navigation, and scaling demos.</p>
+        <span class="count"><strong id="count-examples">…</strong> example screens</span>
+      </div>
+      <div class="card">
+        <h3>Open source</h3>
+        <p>MIT licensed. Issues, PRs, and forks welcome.</p>
+        <span class="count">Apache / MIT</span>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site">
+    Flintium · Ignition Vision faceplates for Rockwell PlantPAx ·
+    <a href="https://github.com/teslasolar/Flintium" target="_blank" rel="noopener">teslasolar/Flintium</a>
+  </footer>
+
+  <script src="./pages/assets/app.js"></script>
+  <script>window.Flintium.initIndex().catch((e) => console.error(e));</script>
+</body>
+</html>

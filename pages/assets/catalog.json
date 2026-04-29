@@ -1,0 +1,2622 @@
+{
+  "generated": "static",
+  "repo": "teslasolar/Flintium",
+  "branch": "master",
+  "windows": [
+    {
+      "name": "ExportImportRolesAndUsers",
+      "label": "Administration/ExportImportRolesAndUsers",
+      "kind": "windows",
+      "category": "Administration",
+      "path": "com.inductiveautomation.vision/windows/Flintium/Administration/ExportImportRolesAndUsers",
+      "thumbnail": "com.inductiveautomation.vision/windows/Flintium/Administration/ExportImportRolesAndUsers/thumbnail.png",
+      "files": [
+        "resource.json",
+        "thumbnail.png",
+        "window.bin"
+      ]
+    },
+    {
+      "name": "ExportImportTags",
+      "label": "Administration/ExportImportTags",
+      "kind": "windows",
+      "category": "Administration",
+      "path": "com.inductiveautomation.vision/windows/Flintium/Administration/ExportImportTags",
+      "thumbnail": "com.inductiveautomation.vision/windows/Flintium/Administration/ExportImportTags/thumbnail.png",
+      "files": [
+        "resource.json",
+        "thumbnail.png",
+        "window.bin"
+      ]
+    },
+    {
+      "name": "Alarms",
+      "label": "ExampleMain/Alarms",
+      "kind": "windows",
+      "category": "ExampleMain",
+      "path": "com.inductiveautomation.vision/windows/Flintium/ExampleMain/Alarms",
+      "thumbnail": "com.inductiveautomation.vision/windows/Flintium/ExampleMain/Alarms/thumbnail.png",
+      "files": [
+        "resource.json",
+        "thumbnail.png",
+        "window.bin"
+      ]
+    },
+    {
+      "name": "HX10",
+      "label": "ExampleMain/HX10",
+      "kind": "windows",
+      "category": "ExampleMain",
+      "path": "com.inductiveautomation.vision/windows/Flintium/ExampleMain/HX10",
+      "thumbnail": "com.inductiveautomation.vision/windows/Flintium/ExampleMain/HX10/thumbnail.png",
+      "files": [
+        "resource.json",
+        "thumbnail.png",
+        "window.bin"
+      ]
+    },
+    {
+      "name": "Navigation",
+      "label": "ExampleMain/Navigation",
+      "kind": "windows",
+      "category": "ExampleMain",
+      "path": "com.inductiveautomation.vision/windows/Flintium/ExampleMain/Navigation",
+      "thumbnail": "com.inductiveautomation.vision/windows/Flintium/ExampleMain/Navigation/thumbnail.png",
+      "files": [
+        "resource.json",
+        "thumbnail.png",
+        "window.bin"
+      ]
+    },
+    {
+      "name": "Overview",
+      "label": "ExampleMain/Overview",
+      "kind": "windows",
+      "category": "ExampleMain",
+      "path": "com.inductiveautomation.vision/windows/Flintium/ExampleMain/Overview",
+      "thumbnail": "com.inductiveautomation.vision/windows/Flintium/ExampleMain/Overview/thumbnail.png",
+      "files": [
+        "resource.json",
+        "thumbnail.png",
+        "window.bin"
+      ]
+    },
+    {
+      "name": "Reactor101",
+      "label": "ExampleMain/Reactor101",
+      "kind": "windows",
+      "category": "ExampleMain",
+      "path": "com.inductiveautomation.vision/windows/Flintium/ExampleMain/Reactor101",
+      "thumbnail": "com.inductiveautomation.vision/windows/Flintium/ExampleMain/Reactor101/thumbnail.png",
+      "files": [
+        "resource.json",
+        "thumbnail.png",
+        "window.bin"
+      ]
+    },
+    {
+      "name": "ScalingTest",
+      "label": "ExampleMain/ScalingTest",
+      "kind": "windows",
+      "category": "ExampleMain",
+      "path": "com.inductiveautomation.vision/windows/Flintium/ExampleMain/ScalingTest",
+      "thumbnail": "com.inductiveautomation.vision/windows/Flintium/ExampleMain/ScalingTest/thumbnail.png",
+      "files": [
+        "resource.json",
+        "thumbnail.png",
+        "window.bin"
+      ]
+    },
+    {
+      "name": "Tanks",
+      "label": "ExampleMain/Tanks",
+      "kind": "windows",
+      "category": "ExampleMain",
+      "path": "com.inductiveautomation.vision/windows/Flintium/ExampleMain/Tanks",
+      "thumbnail": "com.inductiveautomation.vision/windows/Flintium/ExampleMain/Tanks/thumbnail.png",
+      "files": [
+        "resource.json",
+        "thumbnail.png",
+        "window.bin"
+      ]
+    },
+    {
+      "name": "Advanced",
+      "label": "Faceplates/Advanced",
+      "kind": "windows",
+      "category": "Faceplates",
+      "path": "com.inductiveautomation.vision/windows/Flintium/Faceplates/Advanced",
+      "thumbnail": "com.inductiveautomation.vision/windows/Flintium/Faceplates/Advanced/thumbnail.png",
+      "files": [
+        "resource.json",
+        "thumbnail.png",
+        "window.bin"
+      ]
+    },
+    {
+      "name": "Main",
+      "label": "Faceplates/Main",
+      "kind": "windows",
+      "category": "Faceplates",
+      "path": "com.inductiveautomation.vision/windows/Flintium/Faceplates/Main",
+      "thumbnail": "com.inductiveautomation.vision/windows/Flintium/Faceplates/Main/thumbnail.png",
+      "files": [
+        "resource.json",
+        "thumbnail.png",
+        "window.bin"
+      ]
+    },
+    {
+      "name": "RampWizard",
+      "label": "MiscPopups/Common/RampWizard",
+      "kind": "windows",
+      "category": "MiscPopups",
+      "path": "com.inductiveautomation.vision/windows/Flintium/MiscPopups/Common/RampWizard",
+      "thumbnail": "com.inductiveautomation.vision/windows/Flintium/MiscPopups/Common/RampWizard/thumbnail.png",
+      "files": [
+        "resource.json",
+        "thumbnail.png",
+        "window.bin"
+      ]
+    },
+    {
+      "name": "Pidbot",
+      "label": "MiscPopups/P_PIDE/Pidbot",
+      "kind": "windows",
+      "category": "MiscPopups",
+      "path": "com.inductiveautomation.vision/windows/Flintium/MiscPopups/P_PIDE/Pidbot",
+      "thumbnail": "com.inductiveautomation.vision/windows/Flintium/MiscPopups/P_PIDE/Pidbot/thumbnail.png",
+      "files": [
+        "resource.json",
+        "thumbnail.png",
+        "window.bin"
+      ]
+    }
+  ],
+  "templates": [
+    {
+      "name": "ValueAndIcon",
+      "label": "Components/P_AIn/ValueAndIcon",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/P_AIn/ValueAndIcon",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/P_AIn/ValueAndIcon/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "AlarmLabel",
+      "label": "Components/P_Alarm/AlarmLabel",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/P_Alarm/AlarmLabel",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/P_Alarm/AlarmLabel/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Notify",
+      "label": "Components/P_Alarm/Icon/Notify",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/P_Alarm/Icon/Notify",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/P_Alarm/Icon/Notify/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "CmdSrcNavigation",
+      "label": "Components/P_CmdSrc/CmdSrcNavigation",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/P_CmdSrc/CmdSrcNavigation",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/P_CmdSrc/CmdSrcNavigation/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "TitleBar",
+      "label": "Components/P_CmdSrc/TitleBar",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/P_CmdSrc/TitleBar",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/P_CmdSrc/TitleBar/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "BypassActiveTogglePanel",
+      "label": "Components/P_IntlkAndPerm/BypassActiveTogglePanel",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/P_IntlkAndPerm/BypassActiveTogglePanel",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/P_IntlkAndPerm/BypassActiveTogglePanel/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Config",
+      "label": "Components/P_IntlkAndPerm/Config",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/P_IntlkAndPerm/Config",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/P_IntlkAndPerm/Config/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "EnableBypassCheckbox",
+      "label": "Components/P_IntlkAndPerm/EnableBypassCheckbox",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/P_IntlkAndPerm/EnableBypassCheckbox",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/P_IntlkAndPerm/EnableBypassCheckbox/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "IntlkPermButton",
+      "label": "Components/P_IntlkAndPerm/IntlkPermButton",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/P_IntlkAndPerm/IntlkPermButton",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/P_IntlkAndPerm/IntlkPermButton/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Status",
+      "label": "Components/P_IntlkAndPerm/Status",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/P_IntlkAndPerm/Status",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/P_IntlkAndPerm/Status/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "CascManAutoSelector",
+      "label": "Components/P_PIDE/CascManAutoSelector",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/P_PIDE/CascManAutoSelector",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/P_PIDE/CascManAutoSelector/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "LoopModeLabel",
+      "label": "Components/P_PIDE/LoopModeLabel",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/P_PIDE/LoopModeLabel",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/P_PIDE/LoopModeLabel/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "OperatorPvSpCv",
+      "label": "Components/P_PIDE/OperatorPvSpCv",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/P_PIDE/OperatorPvSpCv",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/P_PIDE/OperatorPvSpCv/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "OperatorBar",
+      "label": "Components/P_PIDE/Pidbot/OperatorBar",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/P_PIDE/Pidbot/OperatorBar",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/P_PIDE/Pidbot/OperatorBar/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "StackPvSpCv",
+      "label": "Components/P_PIDE/StackPvSpCv",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/P_PIDE/StackPvSpCv",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/P_PIDE/StackPvSpCv/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "MotorStarter",
+      "label": "Components/Shared/Buttons/MotorStarter",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Buttons/MotorStarter",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Buttons/MotorStarter/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "ToggleSwitch",
+      "label": "Components/Shared/Buttons/ToggleSwitch",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Buttons/ToggleSwitch",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Buttons/ToggleSwitch/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "LabeledStdNumericTextField",
+      "label": "Components/Shared/Input/LabeledStdNumericTextField",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Input/LabeledStdNumericTextField",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Input/LabeledStdNumericTextField/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "StdCheckbox",
+      "label": "Components/Shared/Input/StdCheckbox",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Input/StdCheckbox",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Input/StdCheckbox/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "StdNumericTextField",
+      "label": "Components/Shared/Input/StdNumericTextField",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Input/StdNumericTextField",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Input/StdNumericTextField/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "StdTextField",
+      "label": "Components/Shared/Input/StdTextField",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Input/StdTextField",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Input/StdTextField/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "BooleanIndicator",
+      "label": "Components/Shared/Labels/BooleanIndicator",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Labels/BooleanIndicator",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Labels/BooleanIndicator/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "BooleanIndicatorTagPath",
+      "label": "Components/Shared/Labels/BooleanIndicatorTagPath",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Labels/BooleanIndicatorTagPath",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Labels/BooleanIndicatorTagPath/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "DisplayValue",
+      "label": "Components/Shared/Labels/DisplayValue",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Labels/DisplayValue",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Labels/DisplayValue/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "StdLabel1",
+      "label": "Components/Shared/Labels/StdLabel1",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Labels/StdLabel1",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Labels/StdLabel1/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "StandardDiagnostics",
+      "label": "Components/Shared/Panel/StandardDiagnostics",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Panel/StandardDiagnostics",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Panel/StandardDiagnostics/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "EngineeringTabButton",
+      "label": "Components/Shared/Tab/Advanced/EngineeringTabButton",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/Advanced/EngineeringTabButton",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/Advanced/EngineeringTabButton/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "FaultsTabButton",
+      "label": "Components/Shared/Tab/Advanced/FaultsTabButton",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/Advanced/FaultsTabButton",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/Advanced/FaultsTabButton/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "HmiTabButton",
+      "label": "Components/Shared/Tab/Advanced/HmiTabButton",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/Advanced/HmiTabButton",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/Advanced/HmiTabButton/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "MaintenanceTabButton",
+      "label": "Components/Shared/Tab/Advanced/MaintenanceTabButton",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/Advanced/MaintenanceTabButton",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/Advanced/MaintenanceTabButton/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "IconTabButton",
+      "label": "Components/Shared/Tab/IconTabButton",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/IconTabButton",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/IconTabButton/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "AlarmsTabButton",
+      "label": "Components/Shared/Tab/Main/AlarmsTabButton",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/Main/AlarmsTabButton",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/Main/AlarmsTabButton/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "DiagnosticsTabButton",
+      "label": "Components/Shared/Tab/Main/DiagnosticsTabButton",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/Main/DiagnosticsTabButton",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/Main/DiagnosticsTabButton/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "MaintenanceTabButton",
+      "label": "Components/Shared/Tab/Main/MaintenanceTabButton",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/Main/MaintenanceTabButton",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/Main/MaintenanceTabButton/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "OperatorTabButton",
+      "label": "Components/Shared/Tab/Main/OperatorTabButton",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/Main/OperatorTabButton",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/Main/OperatorTabButton/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "TrendsTabButton",
+      "label": "Components/Shared/Tab/Main/TrendsTabButton",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/Main/TrendsTabButton",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/Shared/Tab/Main/TrendsTabButton/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "KeepConfigItem",
+      "label": "Components/VariableOwner/KeepConfigItem",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/VariableOwner/KeepConfigItem",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/VariableOwner/KeepConfigItem/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "ValueTransfer",
+      "label": "Components/VariableOwner/ValueTransfer",
+      "kind": "templates",
+      "category": "Components",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Components/VariableOwner/ValueTransfer",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Components/VariableOwner/ValueTransfer/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Tank",
+      "label": "DisplayObjects/BlockStyle/P_AIn/Tank",
+      "kind": "templates",
+      "category": "DisplayObjects",
+      "path": "com.inductiveautomation.vision/templates/Flintium/DisplayObjects/BlockStyle/P_AIn/Tank",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/DisplayObjects/BlockStyle/P_AIn/Tank/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "DisplayObjectHeader",
+      "label": "DisplayObjects/DisplayObjectHeader",
+      "kind": "templates",
+      "category": "DisplayObjects",
+      "path": "com.inductiveautomation.vision/templates/Flintium/DisplayObjects/DisplayObjectHeader",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/DisplayObjects/DisplayObjectHeader/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "DisplayObjectOverlay",
+      "label": "DisplayObjects/DisplayObjectOverlay",
+      "kind": "templates",
+      "category": "DisplayObjects",
+      "path": "com.inductiveautomation.vision/templates/Flintium/DisplayObjects/DisplayObjectOverlay",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/DisplayObjects/DisplayObjectOverlay/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Incline",
+      "label": "DisplayObjects/GraphicStyle/Graphics/Motors/Conveyors/Incline",
+      "kind": "templates",
+      "category": "DisplayObjects",
+      "path": "com.inductiveautomation.vision/templates/Flintium/DisplayObjects/GraphicStyle/Graphics/Motors/Conveyors/Incline",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/DisplayObjects/GraphicStyle/Graphics/Motors/Conveyors/Incline/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Standard",
+      "label": "DisplayObjects/GraphicStyle/Graphics/Motors/Conveyors/Standard",
+      "kind": "templates",
+      "category": "DisplayObjects",
+      "path": "com.inductiveautomation.vision/templates/Flintium/DisplayObjects/GraphicStyle/Graphics/Motors/Conveyors/Standard",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/DisplayObjects/GraphicStyle/Graphics/Motors/Conveyors/Standard/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Control",
+      "label": "DisplayObjects/GraphicStyle/Graphics/Valves/Control",
+      "kind": "templates",
+      "category": "DisplayObjects",
+      "path": "com.inductiveautomation.vision/templates/Flintium/DisplayObjects/GraphicStyle/Graphics/Valves/Control",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/DisplayObjects/GraphicStyle/Graphics/Valves/Control/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Solenoid",
+      "label": "DisplayObjects/GraphicStyle/Graphics/Valves/Solenoid",
+      "kind": "templates",
+      "category": "DisplayObjects",
+      "path": "com.inductiveautomation.vision/templates/Flintium/DisplayObjects/GraphicStyle/Graphics/Valves/Solenoid",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/DisplayObjects/GraphicStyle/Graphics/Valves/Solenoid/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Enableable",
+      "label": "Icons/_modifiers/Enableable",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/_modifiers/Enableable",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/_modifiers/Enableable/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Ack",
+      "label": "Icons/Alarm/Ack",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/Ack",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/Ack/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "AckReqd",
+      "label": "Icons/Alarm/AckReqd",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/AckReqd",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/AckReqd/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Active",
+      "label": "Icons/Alarm/Active",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/Active",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/Active/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Disabled",
+      "label": "Icons/Alarm/Disabled",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/Disabled",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/Disabled/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Inhibit",
+      "label": "Icons/Alarm/Inhibit",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/Inhibit",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/Inhibit/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "PriorityHi",
+      "label": "Icons/Alarm/PriorityHi",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/PriorityHi",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/PriorityHi/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "PriorityLo",
+      "label": "Icons/Alarm/PriorityLo",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/PriorityLo",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/PriorityLo/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "PriorityMed",
+      "label": "Icons/Alarm/PriorityMed",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/PriorityMed",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/PriorityMed/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "PriorityUrg",
+      "label": "Icons/Alarm/PriorityUrg",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/PriorityUrg",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/PriorityUrg/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "ResetAckAll",
+      "label": "Icons/Alarm/ResetAckAll",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/ResetAckAll",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/ResetAckAll/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Shelved",
+      "label": "Icons/Alarm/Shelved",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/Shelved",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/Shelved/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Suppressed",
+      "label": "Icons/Alarm/Suppressed",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/Suppressed",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/Suppressed/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Unshelve",
+      "label": "Icons/Alarm/Unshelve",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/Unshelve",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Alarm/Unshelve/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "JogFwd",
+      "label": "Icons/Cmd/JogFwd",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Cmd/JogFwd",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Cmd/JogFwd/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "JogRev",
+      "label": "Icons/Cmd/JogRev",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Cmd/JogRev",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Cmd/JogRev/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Reset",
+      "label": "Icons/Cmd/Reset",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Cmd/Reset",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Cmd/Reset/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "RunFwd",
+      "label": "Icons/Cmd/RunFwd",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Cmd/RunFwd",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Cmd/RunFwd/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "RunRev",
+      "label": "Icons/Cmd/RunRev",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Cmd/RunRev",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Cmd/RunRev/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Stop",
+      "label": "Icons/Cmd/Stop",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Cmd/Stop",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Cmd/Stop/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "ValveClose",
+      "label": "Icons/Cmd/ValveClose",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Cmd/ValveClose",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Cmd/ValveClose/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "ValveOpen",
+      "label": "Icons/Cmd/ValveOpen",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Cmd/ValveOpen",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Cmd/ValveOpen/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Ext",
+      "label": "Icons/CmdSrc/Ext",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/Ext",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/Ext/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Hand",
+      "label": "Icons/CmdSrc/Hand",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/Hand",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/Hand/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Lock",
+      "label": "Icons/CmdSrc/Lock",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/Lock",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/Lock/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Maint",
+      "label": "Icons/CmdSrc/Maint",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/Maint",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/Maint/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "MaintAcq",
+      "label": "Icons/CmdSrc/MaintAcq",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/MaintAcq",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/MaintAcq/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "MaintRel",
+      "label": "Icons/CmdSrc/MaintRel",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/MaintRel",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/MaintRel/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "NotNorm",
+      "label": "Icons/CmdSrc/NotNorm",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/NotNorm",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/NotNorm/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "OoS",
+      "label": "Icons/CmdSrc/OoS",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/OoS",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/OoS/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Oper",
+      "label": "Icons/CmdSrc/Oper",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/Oper",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/Oper/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "OperLocked",
+      "label": "Icons/CmdSrc/OperLocked",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/OperLocked",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/OperLocked/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Ovrd",
+      "label": "Icons/CmdSrc/Ovrd",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/Ovrd",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/Ovrd/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Prog",
+      "label": "Icons/CmdSrc/Prog",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/Prog",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/Prog/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "ProgLocked",
+      "label": "Icons/CmdSrc/ProgLocked",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/ProgLocked",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/ProgLocked/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Unlock",
+      "label": "Icons/CmdSrc/Unlock",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/Unlock",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/CmdSrc/Unlock/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "_base",
+      "label": "Icons/IntlkPerm/_base",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/IntlkPerm/_base",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/IntlkPerm/_base/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "_baseByp",
+      "label": "Icons/IntlkPerm/_baseByp",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/IntlkPerm/_baseByp",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/IntlkPerm/_baseByp/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "GenericIntlkPermIcon",
+      "label": "Icons/IntlkPerm/GenericIntlkPermIcon",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/IntlkPerm/GenericIntlkPermIcon",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/IntlkPerm/GenericIntlkPermIcon/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Advanced",
+      "label": "Icons/Nav/Advanced",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/Advanced",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/Advanced/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Alarms",
+      "label": "Icons/Nav/Alarms",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/Alarms",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/Alarms/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Diagnostics",
+      "label": "Icons/Nav/Diagnostics",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/Diagnostics",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/Diagnostics/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Engineering",
+      "label": "Icons/Nav/Engineering",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/Engineering",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/Engineering/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Faults",
+      "label": "Icons/Nav/Faults",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/Faults",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/Faults/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "HMI",
+      "label": "Icons/Nav/HMI",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/HMI",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/HMI/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "label": "Icons/Nav/Maintenance",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/Maintenance",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/Maintenance/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Operator",
+      "label": "Icons/Nav/Operator",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/Operator",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/Operator/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "RampWizard",
+      "label": "Icons/Nav/RampWizard",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/RampWizard",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/RampWizard/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Trends",
+      "label": "Icons/Nav/Trends",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/Trends",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Nav/Trends/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Auto",
+      "label": "Icons/PID/Auto",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/PID/Auto",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/PID/Auto/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "AutoCas",
+      "label": "Icons/PID/AutoCas",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/PID/AutoCas",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/PID/AutoCas/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Cas",
+      "label": "Icons/PID/Cas",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/PID/Cas",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/PID/Cas/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Man",
+      "label": "Icons/PID/Man",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/PID/Man",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/PID/Man/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Pidbot",
+      "label": "Icons/PID/Pidbot",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/PID/Pidbot",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/PID/Pidbot/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "_baseDiamond",
+      "label": "Icons/SAMA/_baseDiamond",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/_baseDiamond",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/_baseDiamond/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "_baseRect",
+      "label": "Icons/SAMA/_baseRect",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/_baseRect",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/_baseRect/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Difference",
+      "label": "Icons/SAMA/Difference",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/Difference",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/Difference/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Filter",
+      "label": "Icons/SAMA/Filter",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/Filter",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/Filter/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Function",
+      "label": "Icons/SAMA/Function",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/Function",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/Function/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "HiLimit",
+      "label": "Icons/SAMA/HiLimit",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/HiLimit",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/HiLimit/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "HiLoLimit",
+      "label": "Icons/SAMA/HiLoLimit",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/HiLoLimit",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/HiLoLimit/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Integral",
+      "label": "Icons/SAMA/Integral",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/Integral",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/Integral/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "LoLimit",
+      "label": "Icons/SAMA/LoLimit",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/LoLimit",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/LoLimit/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "ManTransfer",
+      "label": "Icons/SAMA/ManTransfer",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/ManTransfer",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/ManTransfer/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Multiply",
+      "label": "Icons/SAMA/Multiply",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/Multiply",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/Multiply/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "ProgTransfer",
+      "label": "Icons/SAMA/ProgTransfer",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/ProgTransfer",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/ProgTransfer/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "RateLimit",
+      "label": "Icons/SAMA/RateLimit",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/RateLimit",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/RateLimit/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Sum",
+      "label": "Icons/SAMA/Sum",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/Sum",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/Sum/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "TimeDelayOff",
+      "label": "Icons/SAMA/TimeDelayOff",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/TimeDelayOff",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/TimeDelayOff/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "TimeDelayOn",
+      "label": "Icons/SAMA/TimeDelayOn",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/TimeDelayOn",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/TimeDelayOn/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "TimeFunction",
+      "label": "Icons/SAMA/TimeFunction",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/TimeFunction",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/TimeFunction/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Zero",
+      "label": "Icons/SAMA/Zero",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/Zero",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/SAMA/Zero/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Flintium",
+      "label": "Icons/Special/Flintium",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Special/Flintium",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Special/Flintium/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "None",
+      "label": "Icons/Special/None",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Special/None",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Special/None/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "BadCfg",
+      "label": "Icons/Status/BadCfg",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/BadCfg",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/BadCfg/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Clamped",
+      "label": "Icons/Status/Clamped",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Clamped",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Clamped/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "CommBad",
+      "label": "Icons/Status/CommBad",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/CommBad",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/CommBad/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "CommUncertain",
+      "label": "Icons/Status/CommUncertain",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/CommUncertain",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/CommUncertain/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Connected",
+      "label": "Icons/Status/Connected",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Connected",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Connected/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Disabled",
+      "label": "Icons/Status/Disabled",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Disabled",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Disabled/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Good",
+      "label": "Icons/Status/Good",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Good",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Good/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Held",
+      "label": "Icons/Status/Held",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Held",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Held/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Initializing",
+      "label": "Icons/Status/Initializing",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Initializing",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Initializing/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "MaintByp",
+      "label": "Icons/Status/MaintByp",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/MaintByp",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/MaintByp/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "NotOK",
+      "label": "Icons/Status/NotOK",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/NotOK",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/NotOK/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "NotReady",
+      "label": "Icons/Status/NotReady",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/NotReady",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/NotReady/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Replaced",
+      "label": "Icons/Status/Replaced",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Replaced",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Replaced/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "_baseDev",
+      "label": "Icons/Status/Threshold/_baseDev",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/_baseDev",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/_baseDev/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Hi",
+      "label": "Icons/Status/Threshold/Hi",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/Hi",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/Hi/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "HiDev",
+      "label": "Icons/Status/Threshold/HiDev",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/HiDev",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/HiDev/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "HiHi",
+      "label": "Icons/Status/Threshold/HiHi",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/HiHi",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/HiHi/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "HiHiDev",
+      "label": "Icons/Status/Threshold/HiHiDev",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/HiHiDev",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/HiHiDev/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "HiRoC",
+      "label": "Icons/Status/Threshold/HiRoC",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/HiRoC",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/HiRoC/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Lo",
+      "label": "Icons/Status/Threshold/Lo",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/Lo",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/Lo/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "LoDev",
+      "label": "Icons/Status/Threshold/LoDev",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/LoDev",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/LoDev/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "LoLo",
+      "label": "Icons/Status/Threshold/LoLo",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/LoLo",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/LoLo/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "LoLoDev",
+      "label": "Icons/Status/Threshold/LoLoDev",
+      "kind": "templates",
+      "category": "Icons",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/LoLoDev",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Icons/Status/Threshold/LoLoDev/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "1",
+      "label": "Panels/P_AIn/Advanced/Engineering/1",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_AIn/Advanced/Engineering/1",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_AIn/Advanced/Engineering/1/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Alarms",
+      "label": "Panels/P_AIn/Main/Alarms",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_AIn/Main/Alarms",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_AIn/Main/Alarms/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "label": "Panels/P_AIn/Main/Maintenance",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_AIn/Main/Maintenance",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_AIn/Main/Maintenance/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Trends",
+      "label": "Panels/P_AIn/Main/Trends",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_AIn/Main/Trends",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_AIn/Main/Trends/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "1",
+      "label": "Panels/P_Alarm/Advanced/Engineering/1",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Alarm/Advanced/Engineering/1",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Alarm/Advanced/Engineering/1/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "label": "Panels/P_Alarm/Main/Maintenance",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Alarm/Main/Maintenance",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Alarm/Main/Maintenance/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Operator",
+      "label": "Panels/P_Alarm/Main/Operator",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Alarm/Main/Operator",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Alarm/Main/Operator/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "label": "Panels/P_CmdSrc/Main/Maintenance",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_CmdSrc/Main/Maintenance",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_CmdSrc/Main/Maintenance/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Operator",
+      "label": "Panels/P_CmdSrc/Main/Operator",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_CmdSrc/Main/Operator",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_CmdSrc/Main/Operator/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Operator",
+      "label": "Panels/P_Gate/Main/Operator",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Gate/Main/Operator",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Gate/Main/Operator/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "1",
+      "label": "Panels/P_Intlk/Advanced/Engineering/1",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Intlk/Advanced/Engineering/1",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Intlk/Advanced/Engineering/1/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "2",
+      "label": "Panels/P_Intlk/Advanced/Engineering/2",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Intlk/Advanced/Engineering/2",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Intlk/Advanced/Engineering/2/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "label": "Panels/P_Intlk/Main/Maintenance",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Intlk/Main/Maintenance",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Intlk/Main/Maintenance/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Operator",
+      "label": "Panels/P_Intlk/Main/Operator",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Intlk/Main/Operator",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Intlk/Main/Operator/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Diagnostics",
+      "label": "Panels/P_MotorRev/Main/Diagnostics",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_MotorRev/Main/Diagnostics",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_MotorRev/Main/Diagnostics/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "label": "Panels/P_MotorRev/Main/Maintenance",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_MotorRev/Main/Maintenance",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_MotorRev/Main/Maintenance/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Operator",
+      "label": "Panels/P_MotorRev/Main/Operator",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_MotorRev/Main/Operator",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_MotorRev/Main/Operator/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "1",
+      "label": "Panels/P_Perm/Advanced/Engineering/1",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Perm/Advanced/Engineering/1",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Perm/Advanced/Engineering/1/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "2",
+      "label": "Panels/P_Perm/Advanced/Engineering/2",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Perm/Advanced/Engineering/2",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Perm/Advanced/Engineering/2/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "label": "Panels/P_Perm/Main/Maintenance",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Perm/Main/Maintenance",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Perm/Main/Maintenance/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Operator",
+      "label": "Panels/P_Perm/Main/Operator",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Perm/Main/Operator",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_Perm/Main/Operator/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "1",
+      "label": "Panels/P_PIDE/Advanced/Engineering/1",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Advanced/Engineering/1",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Advanced/Engineering/1/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "6",
+      "label": "Panels/P_PIDE/Advanced/Engineering/6",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Advanced/Engineering/6",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Advanced/Engineering/6/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "1",
+      "label": "Panels/P_PIDE/Advanced/Faults/1",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Advanced/Faults/1",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Advanced/Faults/1/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "2",
+      "label": "Panels/P_PIDE/Advanced/Faults/2",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Advanced/Faults/2",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Advanced/Faults/2/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "3",
+      "label": "Panels/P_PIDE/Advanced/Maintenance/3",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Advanced/Maintenance/3",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Advanced/Maintenance/3/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Alarms",
+      "label": "Panels/P_PIDE/Main/Alarms",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Main/Alarms",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Main/Alarms/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Diagnostics",
+      "label": "Panels/P_PIDE/Main/Diagnostics",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Main/Diagnostics",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Main/Diagnostics/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "label": "Panels/P_PIDE/Main/Maintenance",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Main/Maintenance",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Main/Maintenance/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Operator",
+      "label": "Panels/P_PIDE/Main/Operator",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Main/Operator",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Main/Operator/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Trends",
+      "label": "Panels/P_PIDE/Main/Trends",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Main/Trends",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Main/Trends/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "SimpleDash",
+      "label": "Panels/P_PIDE/Pidbot/SimpleDash",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Pidbot/SimpleDash",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_PIDE/Pidbot/SimpleDash/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "3",
+      "label": "Panels/P_ValveC/Advanced/Engineering/3",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveC/Advanced/Engineering/3",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveC/Advanced/Engineering/3/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Alarms",
+      "label": "Panels/P_ValveC/Main/Alarms",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveC/Main/Alarms",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveC/Main/Alarms/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Diagnostics",
+      "label": "Panels/P_ValveC/Main/Diagnostics",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveC/Main/Diagnostics",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveC/Main/Diagnostics/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "label": "Panels/P_ValveC/Main/Maintenance",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveC/Main/Maintenance",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveC/Main/Maintenance/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Operator",
+      "label": "Panels/P_ValveC/Main/Operator",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveC/Main/Operator",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveC/Main/Operator/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Trends",
+      "label": "Panels/P_ValveC/Main/Trends",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveC/Main/Trends",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveC/Main/Trends/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Alarms",
+      "label": "Panels/P_ValveSO/Main/Alarms",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveSO/Main/Alarms",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveSO/Main/Alarms/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Diagnostics",
+      "label": "Panels/P_ValveSO/Main/Diagnostics",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveSO/Main/Diagnostics",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveSO/Main/Diagnostics/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "label": "Panels/P_ValveSO/Main/Maintenance",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveSO/Main/Maintenance",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveSO/Main/Maintenance/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Operator",
+      "label": "Panels/P_ValveSO/Main/Operator",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveSO/Main/Operator",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_ValveSO/Main/Operator/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Diagnostics",
+      "label": "Panels/P_VSD/Main/Diagnostics",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_VSD/Main/Diagnostics",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_VSD/Main/Diagnostics/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "label": "Panels/P_VSD/Main/Maintenance",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_VSD/Main/Maintenance",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_VSD/Main/Maintenance/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Operator",
+      "label": "Panels/P_VSD/Main/Operator",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_VSD/Main/Operator",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_VSD/Main/Operator/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    },
+    {
+      "name": "Trends",
+      "label": "Panels/P_VSD/Main/Trends",
+      "kind": "templates",
+      "category": "Panels",
+      "path": "com.inductiveautomation.vision/templates/Flintium/Panels/P_VSD/Main/Trends",
+      "thumbnail": "com.inductiveautomation.vision/templates/Flintium/Panels/P_VSD/Main/Trends/thumbnail.png",
+      "files": [
+        "resource.json",
+        "template.bin",
+        "thumbnail.png"
+      ]
+    }
+  ]
+}
