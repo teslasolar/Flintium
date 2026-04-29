@@ -9,3 +9,7 @@ com.inductiveautomation.reporting/
 *.Wrk
 *.BAK*
 *.ACD.Recovery
+
+# Python build artifacts #
+__pycache__/
+*.pyc
