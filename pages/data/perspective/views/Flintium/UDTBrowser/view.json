@@ -1,0 +1,112 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 768,
+      "width": 1200
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "title"
+        },
+        "position": {
+          "x": 24,
+          "y": 24,
+          "width": 800,
+          "height": 40
+        },
+        "props": {
+          "text": "UDT Type Browser",
+          "style": {
+            "fontSize": 24,
+            "color": "#e6edf3",
+            "fontWeight": "bold"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "hint"
+        },
+        "position": {
+          "x": 24,
+          "y": 70,
+          "width": 1100,
+          "height": 30
+        },
+        "props": {
+          "text": "Each UDT is defined under Flintium/_types_/ in the tag browser. Click a row to inspect.",
+          "style": {
+            "fontSize": 14,
+            "color": "#8b949e",
+            "fontWeight": "normal"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "udtTable"
+        },
+        "position": {
+          "x": 24,
+          "y": 110,
+          "width": 1150,
+          "height": 580
+        },
+        "propConfig": {
+          "props.data": {
+            "binding": {
+              "type": "expr",
+              "config": {
+                "expression": "runScript(\"flintium.tools.list_udts\", 0)"
+              }
+            }
+          }
+        },
+        "props": {
+          "selection": {
+            "mode": "single"
+          },
+          "columns": [
+            {
+              "field": "name",
+              "header": "Type"
+            },
+            {
+              "field": "parent",
+              "header": "Parent"
+            },
+            {
+              "field": "level",
+              "header": "ISA Level"
+            },
+            {
+              "field": "fieldCount",
+              "header": "Direct"
+            },
+            {
+              "field": "resolved",
+              "header": "Resolved"
+            }
+          ]
+        },
+        "type": "ia.display.table"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "backgroundColor": "#0e1116"
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}

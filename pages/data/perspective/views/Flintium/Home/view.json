@@ -1,0 +1,174 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 768,
+      "width": 1200
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "title"
+        },
+        "position": {
+          "x": 24,
+          "y": 24,
+          "width": 800,
+          "height": 50
+        },
+        "props": {
+          "text": "Flintium",
+          "style": {
+            "fontSize": 32,
+            "color": "#f0883e",
+            "fontWeight": "bold"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "sub"
+        },
+        "position": {
+          "x": 24,
+          "y": 76,
+          "width": 800,
+          "height": 30
+        },
+        "props": {
+          "text": "Ignition Perspective project \u00b7 UDT browser \u00b7 MCP tools \u00b7 project generator",
+          "style": {
+            "fontSize": 14,
+            "color": "#8b949e",
+            "fontWeight": "normal"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "type": "script",
+              "config": {
+                "script": "system.perspective.navigate('Flintium/UDTBrowser')",
+                "scope": "G"
+              }
+            }
+          }
+        },
+        "meta": {
+          "name": "link_browser"
+        },
+        "position": {
+          "x": 24,
+          "y": 130,
+          "width": 320,
+          "height": 80
+        },
+        "props": {
+          "text": "\u25b8 UDT Browser  \u2014  view all 37 type definitions",
+          "style": {
+            "backgroundColor": "#1c232c",
+            "color": "#58a6ff",
+            "borderColor": "#2a313c",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "borderRadius": 8,
+            "padding": "12px 16px",
+            "cursor": "pointer",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "type": "script",
+              "config": {
+                "script": "system.perspective.navigate('Flintium/Generator')",
+                "scope": "G"
+              }
+            }
+          }
+        },
+        "meta": {
+          "name": "link_generator"
+        },
+        "position": {
+          "x": 24,
+          "y": 222,
+          "width": 320,
+          "height": 80
+        },
+        "props": {
+          "text": "\u25b8 Project Generator  \u2014  compose tag instances",
+          "style": {
+            "backgroundColor": "#1c232c",
+            "color": "#58a6ff",
+            "borderColor": "#2a313c",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "borderRadius": 8,
+            "padding": "12px 16px",
+            "cursor": "pointer",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "type": "script",
+              "config": {
+                "script": "system.perspective.navigate('Flintium/Tools')",
+                "scope": "G"
+              }
+            }
+          }
+        },
+        "meta": {
+          "name": "link_tools"
+        },
+        "position": {
+          "x": 24,
+          "y": 314,
+          "width": 320,
+          "height": 80
+        },
+        "props": {
+          "text": "\u25b8 MCP Tools  \u2014  call helpers from script consoles",
+          "style": {
+            "backgroundColor": "#1c232c",
+            "color": "#58a6ff",
+            "borderColor": "#2a313c",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "borderRadius": 8,
+            "padding": "12px 16px",
+            "cursor": "pointer",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "backgroundColor": "#0e1116"
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}

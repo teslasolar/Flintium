@@ -11,6 +11,7 @@
     { "id": "templates",  "label": "Templates",  "href": "pages/templates.html",  "rootHref": "pages/templates.html" },
     { "id": "demo",       "label": "Demo Apps",  "href": "pages/demo.html",       "rootHref": "pages/demo.html" },
     { "id": "generator",  "label": "Generator",  "href": "pages/generator.html",  "rootHref": "pages/generator.html" },
+    { "id": "perspective","label": "Perspective","href": "pages/perspective.html","rootHref": "pages/perspective.html" },
     { "id": "tagdb",      "label": "TAG.DB v2",  "href": "pages/app/index.html",  "rootHref": "pages/app/index.html" },
     { "id": "github",     "label": "GitHub",     "href": "https://github.com/teslasolar/Flintium", "external": true }
   ]

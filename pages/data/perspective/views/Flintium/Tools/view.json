@@ -1,0 +1,85 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 768,
+      "width": 1200
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "title"
+        },
+        "position": {
+          "x": 24,
+          "y": 24,
+          "width": 800,
+          "height": 40
+        },
+        "props": {
+          "text": "MCP Tool Reference",
+          "style": {
+            "fontSize": 24,
+            "color": "#e6edf3",
+            "fontWeight": "bold"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "hint"
+        },
+        "position": {
+          "x": 24,
+          "y": 70,
+          "width": 1100,
+          "height": 30
+        },
+        "props": {
+          "text": "These browser-side MCP tools map onto Ignition system.* calls via flintium.tools.",
+          "style": {
+            "fontSize": 14,
+            "color": "#8b949e",
+            "fontWeight": "normal"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "list"
+        },
+        "position": {
+          "x": 24,
+          "y": 110,
+          "width": 1150,
+          "height": 580
+        },
+        "props": {
+          "html": "<div style='font-size:13px;margin:6px 0'><b>tag.read(path)</b> \u2192 system.tag.readBlocking([path])[0]</div><div style='font-size:13px;margin:6px 0'><b>tag.write(path, value)</b> \u2192 system.tag.writeBlocking([path],[value])[0]</div><div style='font-size:13px;margin:6px 0'><b>tag.browse(path)</b> \u2192 system.tag.browse(path)</div><div style='font-size:13px;margin:6px 0'><b>tag.history(path)</b> \u2192 system.tag.queryTagHistory([path])</div><div style='font-size:13px;margin:6px 0'><b>udt.list()</b> \u2192 flintium.tools.list_udts()</div><div style='font-size:13px;margin:6px 0'><b>udt.detail(name)</b> \u2192 flintium.tools.udt_detail(name)</div><div style='font-size:13px;margin:6px 0'><b>udt.create(path, udt)</b> \u2192 flintium.tools.create_instance(path, udt)</div><div style='font-size:13px;margin:6px 0'><b>alarm.active()</b> \u2192 system.alarm.queryStatus()</div><div style='font-size:13px;margin:6px 0'><b>alarm.ack(path)</b> \u2192 system.alarm.acknowledge([path])</div><div style='font-size:13px;margin:6px 0'><b>gw.status()</b> \u2192 system.util.getGatewayAddress()</div><div style='font-size:13px;margin:6px 0'><b>db.query(sql)</b> \u2192 system.db.runQuery(sql, 'default')</div><div style='font-size:13px;margin:6px 0'><b>opc.browse(path)</b> \u2192 system.opc.browseServer(...)</div><div style='font-size:13px;margin:6px 0'><b>plc.status(name)</b> \u2192 flintium.tools.plc_status(name)</div><div style='font-size:13px;margin:6px 0'><b>troubleshoot(issue)</b> \u2192 flintium.tools.troubleshoot(issue)</div>",
+          "style": {
+            "color": "#e6edf3",
+            "padding": "16px",
+            "backgroundColor": "#161b22",
+            "borderRadius": 8,
+            "overflow": "auto"
+          }
+        },
+        "type": "ia.display.markdown"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "backgroundColor": "#0e1116"
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}

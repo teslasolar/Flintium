@@ -1,0 +1,24 @@
+{
+  "views": [
+    {
+      "path": "Flintium/Home",
+      "name": "Home",
+      "file": "Flintium/Home/view.json"
+    },
+    {
+      "path": "Flintium/UDTBrowser",
+      "name": "UDTBrowser",
+      "file": "Flintium/UDTBrowser/view.json"
+    },
+    {
+      "path": "Flintium/Generator",
+      "name": "Generator",
+      "file": "Flintium/Generator/view.json"
+    },
+    {
+      "path": "Flintium/Tools",
+      "name": "Tools",
+      "file": "Flintium/Tools/view.json"
+    }
+  ]
+}

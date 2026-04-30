@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Perspective Demo · Flintium</title>
+  <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="stylesheet" href="./assets/perspective/style.css" />
+</head>
+<body data-page="perspective">
+  <div data-include="header"></div>
+
+  <main>
+    <h1 class="section-title">Perspective Demo <small>renders the same view JSONs shipped in the project zip</small></h1>
+    <p style="color: var(--muted); max-width: 760px;">
+      The Flintium project zip embeds Perspective views as JSON. This page reads
+      the same JSONs from <code>pages/data/perspective/views/</code> and renders
+      them in the browser using a tiny Perspective-compatible runtime that
+      supports <code>ia.container.coord</code>, <code>ia.display.label</code>,
+      <code>ia.display.table</code>, and <code>ia.display.markdown</code>.
+      <code>runScript()</code> bindings are routed through a browser-side mock
+      of <code>flintium.tools</code>, so the tables populate from the live UDT
+      and instance indexes.
+    </p>
+
+    <div class="persp-toolbar">
+      <label for="picker" style="color: var(--muted); font-size: 13px;">View</label>
+      <select id="picker"></select>
+      <button id="reload" class="btn">Reload</button>
+      <a id="source-link" href="#" target="_blank" rel="noopener">view source JSON ↗</a>
+      <span id="status" class="status">Idle</span>
+    </div>
+
+    <div class="persp-stage">
+      <div id="view-host"></div>
+    </div>
+
+    <h2 class="section-title" style="margin-top: 32px;">How this works</h2>
+    <ol style="color: var(--muted); max-width: 760px; line-height: 1.7;">
+      <li><code>tools/build_perspective_export.py</code> generates the same view JSONs
+        twice — once into the Ignition project zip under
+        <code>com.inductiveautomation.perspective/views/...</code>, and once into
+        <code>pages/data/perspective/views/...</code> for this page.</li>
+      <li>The renderer (<code>pages/assets/perspective/renderer.js</code>) walks
+        the view tree, dispatches each node to a component module, and resolves
+        <code>propConfig</code> bindings.</li>
+      <li>Expression bindings of the form
+        <code>runScript("flintium.tools.list_udts", 0)</code> are intercepted by
+        <code>tools-mock.js</code>, which serves the same data the gateway-side
+        Jython implementation would return.</li>
+      <li>The label-on-the-Home view fires
+        <code>system.perspective.navigate('Flintium/UDTBrowser')</code>; we map
+        that to a custom <code>perspective:navigate</code> DOM event that swaps
+        the current view.</li>
+    </ol>
+  </main>
+
+  <div data-include="footer"></div>
+
+  <script type="module" src="./assets/layout.js"></script>
+  <script type="module">
+    import { initPerspectiveDemo } from "./assets/perspective/demo.js";
+    initPerspectiveDemo().catch((e) => {
+      console.error(e);
+      document.getElementById("view-host").innerHTML =
+        '<div style="color:#ff4466;padding:16px;font-family:monospace">init error: ' + e.message + "</div>";
+    });
+  </script>
+</body>
+</html>

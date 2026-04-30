@@ -1,0 +1,46 @@
+.persp-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.persp-toolbar select,
+.persp-toolbar input {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: inherit;
+}
+
+.persp-toolbar .status {
+  color: var(--muted);
+  font-size: 13px;
+  margin-left: auto;
+}
+
+.persp-toolbar a {
+  color: var(--accent-2);
+  font-size: 13px;
+}
+
+.persp-stage {
+  background: #0e1116;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px;
+  overflow: auto;
+  min-height: 300px;
+}
+
+#view-host {
+  margin: 0 auto;
+  background: #0e1116;
+  border-radius: 6px;
+  box-shadow: 0 0 0 1px #2a313c inset;
+  position: relative;
+}

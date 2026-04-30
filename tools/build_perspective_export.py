@@ -12,7 +12,7 @@ from tools._tag_export import build_udt_export, build_instance_export
 from tools._views import home_view, udt_browser_view, generator_view, tools_view
 from tools._scripts import INIT_PY, render_tools_py
 from tools._zip_writer import write_project_zip
-from tools._paths import DIST_DIR
+from tools._paths import DIST_DIR, ROOT
 
 README = """# Flintium Ignition Perspective Bundle
 
@@ -84,6 +84,22 @@ def main():
     }
     zip_path = DIST_DIR / "Flintium-Perspective-Project.zip"
     write_project_zip(zip_path, views=views, scripts=scripts)
+
+    # 3b. Mirror views to pages/data/perspective/ so the in-browser renderer
+    # can consume the exact same JSONs that ship in the project zip.
+    persp_root = ROOT / "pages" / "data" / "perspective" / "views"
+    persp_root.mkdir(parents=True, exist_ok=True)
+    view_index = []
+    for view_path, view_dict in views.items():
+        view_dir = persp_root / view_path
+        view_dir.mkdir(parents=True, exist_ok=True)
+        (view_dir / "view.json").write_text(json.dumps(view_dict, indent=2))
+        view_index.append({
+            "path": view_path,
+            "name": view_path.split("/")[-1],
+            "file": view_path + "/view.json",
+        })
+    (persp_root / "index.json").write_text(json.dumps({"views": view_index}, indent=2))
 
     # 4. README
     (DIST_DIR / "README.md").write_text(README)
