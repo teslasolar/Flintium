@@ -53,8 +53,17 @@ export async function initPerspectiveDemo() {
   $("reload").addEventListener("click", () => loadView(state.current));
   window.addEventListener("perspective:navigate", (e) => {
     const target = e.detail?.view;
-    if (target) loadView(target);
+    if (target) {
+      window.location.hash = "#view=" + target;
+      loadView(target);
+    }
   });
-  const initial = window.location.hash.match(/view=([^&]+)/)?.[1] || state.index.views[0].path;
+  window.addEventListener("hashchange", () => {
+    const target = decodeURIComponent(window.location.hash.match(/view=([^&]+)/)?.[1] || "");
+    if (target && target !== state.current) loadView(target);
+  });
+  const initial =
+    decodeURIComponent(window.location.hash.match(/view=([^&]+)/)?.[1] || "") ||
+    state.index.views[0].path;
   await loadView(initial);
 }

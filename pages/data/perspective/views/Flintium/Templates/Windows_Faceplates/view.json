@@ -1,0 +1,42 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 700,
+      "width": 1400
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "gallery"
+        },
+        "position": {
+          "x": 0,
+          "y": 0,
+          "width": 1400,
+          "height": 700
+        },
+        "props": {
+          "html": "<div style=\"padding:0 12px 24px\"><div style=\"color:#f0883e;font-size:24px;font-weight:600;margin-bottom:6px\">Windows \u00b7 Faceplates</div><div style=\"color:#8b949e;font-size:13px;margin-bottom:14px\">2 windows in the Faceplates category</div><div><div style=\"display:inline-block;width:200px;margin:6px;background:#161b22;border:1px solid #2a313c;border-radius:8px;overflow:hidden;vertical-align:top;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif\"><img src=\"https://raw.githubusercontent.com/teslasolar/Flintium/master/com.inductiveautomation.vision/windows/Flintium/Faceplates/Advanced/thumbnail.png\" alt=\"Advanced\" style=\"width:100%;height:140px;object-fit:contain;background:#fff;display:block\" /><div style=\"padding:8px\"><div style=\"color:#e6edf3;font-size:13px;font-weight:600;word-break:break-word\">Advanced</div><div style=\"color:#8b949e;font-size:11px;margin-top:2px;word-break:break-word\">Faceplates/Advanced</div><a href=\"https://github.com/teslasolar/Flintium/tree/master/com.inductiveautomation.vision/windows/Flintium/Faceplates/Advanced\" target=\"_blank\" style=\"color:#58a6ff;font-size:11px;display:block;margin-top:6px;text-decoration:none\">View on GitHub \u2192</a></div></div><div style=\"display:inline-block;width:200px;margin:6px;background:#161b22;border:1px solid #2a313c;border-radius:8px;overflow:hidden;vertical-align:top;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif\"><img src=\"https://raw.githubusercontent.com/teslasolar/Flintium/master/com.inductiveautomation.vision/windows/Flintium/Faceplates/Main/thumbnail.png\" alt=\"Main\" style=\"width:100%;height:140px;object-fit:contain;background:#fff;display:block\" /><div style=\"padding:8px\"><div style=\"color:#e6edf3;font-size:13px;font-weight:600;word-break:break-word\">Main</div><div style=\"color:#8b949e;font-size:11px;margin-top:2px;word-break:break-word\">Faceplates/Main</div><a href=\"https://github.com/teslasolar/Flintium/tree/master/com.inductiveautomation.vision/windows/Flintium/Faceplates/Main\" target=\"_blank\" style=\"color:#58a6ff;font-size:11px;display:block;margin-top:6px;text-decoration:none\">View on GitHub \u2192</a></div></div></div></div>",
+          "style": {
+            "backgroundColor": "#0e1116",
+            "overflow": "auto"
+          }
+        },
+        "type": "ia.display.markdown"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "backgroundColor": "#0e1116"
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}

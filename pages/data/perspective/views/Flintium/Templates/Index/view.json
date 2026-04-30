@@ -1,0 +1,42 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 700,
+      "width": 1200
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "index"
+        },
+        "position": {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 700
+        },
+        "props": {
+          "html": "<div style=\"padding:24px\"><div style=\"color:#f0883e;font-size:32px;font-weight:700;margin-bottom:6px\">PlantPAx Template Library</div><div style=\"color:#8b949e;font-size:14px;margin-bottom:24px\">188 Vision templates and 13 windows from <a href=\"https://github.com/teslasolar/Flintium\" target=\"_blank\" style=\"color:#58a6ff\">teslasolar/Flintium</a>, organised by category. Click a chip to open that gallery; each card links back to the source on GitHub.</div><div style=\"margin-bottom:16px\"><div style=\"color:#e6edf3;font-size:14px;font-weight:600;margin-bottom:8px\">Templates</div><a href=\"#view=Flintium/Templates/Templates_All\" style=\"display:inline-block;margin:4px 8px 4px 0;padding:8px 14px;background:#161b22;border:1px solid #2a313c;border-radius:6px;color:#58a6ff;text-decoration:none;font-size:13px\">All (188)</a><a href=\"#view=Flintium/Templates/Templates_Components\" style=\"display:inline-block;margin:4px 8px 4px 0;padding:8px 14px;background:#161b22;border:1px solid #2a313c;border-radius:6px;color:#58a6ff;text-decoration:none;font-size:13px\">Components (38)</a><a href=\"#view=Flintium/Templates/Templates_DisplayObjects\" style=\"display:inline-block;margin:4px 8px 4px 0;padding:8px 14px;background:#161b22;border:1px solid #2a313c;border-radius:6px;color:#58a6ff;text-decoration:none;font-size:13px\">DisplayObjects (7)</a><a href=\"#view=Flintium/Templates/Templates_Icons\" style=\"display:inline-block;margin:4px 8px 4px 0;padding:8px 14px;background:#161b22;border:1px solid #2a313c;border-radius:6px;color:#58a6ff;text-decoration:none;font-size:13px\">Icons (97)</a><a href=\"#view=Flintium/Templates/Templates_Panels\" style=\"display:inline-block;margin:4px 8px 4px 0;padding:8px 14px;background:#161b22;border:1px solid #2a313c;border-radius:6px;color:#58a6ff;text-decoration:none;font-size:13px\">Panels (46)</a></div><div style=\"margin-bottom:16px\"><div style=\"color:#e6edf3;font-size:14px;font-weight:600;margin-bottom:8px\">Windows</div><a href=\"#view=Flintium/Templates/Windows_All\" style=\"display:inline-block;margin:4px 8px 4px 0;padding:8px 14px;background:#161b22;border:1px solid #2a313c;border-radius:6px;color:#58a6ff;text-decoration:none;font-size:13px\">All (13)</a><a href=\"#view=Flintium/Templates/Windows_Administration\" style=\"display:inline-block;margin:4px 8px 4px 0;padding:8px 14px;background:#161b22;border:1px solid #2a313c;border-radius:6px;color:#58a6ff;text-decoration:none;font-size:13px\">Administration (2)</a><a href=\"#view=Flintium/Templates/Windows_ExampleMain\" style=\"display:inline-block;margin:4px 8px 4px 0;padding:8px 14px;background:#161b22;border:1px solid #2a313c;border-radius:6px;color:#58a6ff;text-decoration:none;font-size:13px\">ExampleMain (7)</a><a href=\"#view=Flintium/Templates/Windows_Faceplates\" style=\"display:inline-block;margin:4px 8px 4px 0;padding:8px 14px;background:#161b22;border:1px solid #2a313c;border-radius:6px;color:#58a6ff;text-decoration:none;font-size:13px\">Faceplates (2)</a><a href=\"#view=Flintium/Templates/Windows_MiscPopups\" style=\"display:inline-block;margin:4px 8px 4px 0;padding:8px 14px;background:#161b22;border:1px solid #2a313c;border-radius:6px;color:#58a6ff;text-decoration:none;font-size:13px\">MiscPopups (2)</a></div></div>",
+          "style": {
+            "backgroundColor": "#0e1116",
+            "overflow": "auto"
+          }
+        },
+        "type": "ia.display.markdown"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "backgroundColor": "#0e1116"
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}

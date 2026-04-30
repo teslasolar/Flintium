@@ -1,24 +1,79 @@
 {
   "views": [
     {
-      "path": "Flintium/Home",
-      "name": "Home",
-      "file": "Flintium/Home/view.json"
-    },
-    {
-      "path": "Flintium/UDTBrowser",
-      "name": "UDTBrowser",
-      "file": "Flintium/UDTBrowser/view.json"
-    },
-    {
       "path": "Flintium/Generator",
       "name": "Generator",
       "file": "Flintium/Generator/view.json"
     },
     {
+      "path": "Flintium/Home",
+      "name": "Home",
+      "file": "Flintium/Home/view.json"
+    },
+    {
+      "path": "Flintium/Templates/Index",
+      "name": "Index",
+      "file": "Flintium/Templates/Index/view.json"
+    },
+    {
+      "path": "Flintium/Templates/Templates_All",
+      "name": "Templates_All",
+      "file": "Flintium/Templates/Templates_All/view.json"
+    },
+    {
+      "path": "Flintium/Templates/Templates_Components",
+      "name": "Templates_Components",
+      "file": "Flintium/Templates/Templates_Components/view.json"
+    },
+    {
+      "path": "Flintium/Templates/Templates_DisplayObjects",
+      "name": "Templates_DisplayObjects",
+      "file": "Flintium/Templates/Templates_DisplayObjects/view.json"
+    },
+    {
+      "path": "Flintium/Templates/Templates_Icons",
+      "name": "Templates_Icons",
+      "file": "Flintium/Templates/Templates_Icons/view.json"
+    },
+    {
+      "path": "Flintium/Templates/Templates_Panels",
+      "name": "Templates_Panels",
+      "file": "Flintium/Templates/Templates_Panels/view.json"
+    },
+    {
+      "path": "Flintium/Templates/Windows_Administration",
+      "name": "Windows_Administration",
+      "file": "Flintium/Templates/Windows_Administration/view.json"
+    },
+    {
+      "path": "Flintium/Templates/Windows_All",
+      "name": "Windows_All",
+      "file": "Flintium/Templates/Windows_All/view.json"
+    },
+    {
+      "path": "Flintium/Templates/Windows_ExampleMain",
+      "name": "Windows_ExampleMain",
+      "file": "Flintium/Templates/Windows_ExampleMain/view.json"
+    },
+    {
+      "path": "Flintium/Templates/Windows_Faceplates",
+      "name": "Windows_Faceplates",
+      "file": "Flintium/Templates/Windows_Faceplates/view.json"
+    },
+    {
+      "path": "Flintium/Templates/Windows_MiscPopups",
+      "name": "Windows_MiscPopups",
+      "file": "Flintium/Templates/Windows_MiscPopups/view.json"
+    },
+    {
       "path": "Flintium/Tools",
       "name": "Tools",
       "file": "Flintium/Tools/view.json"
+    },
+    {
+      "path": "Flintium/UDTBrowser",
+      "name": "UDTBrowser",
+      "file": "Flintium/UDTBrowser/view.json"
     }
   ]
 }

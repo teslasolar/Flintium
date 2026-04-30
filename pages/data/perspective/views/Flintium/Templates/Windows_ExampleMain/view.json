@@ -1,0 +1,42 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 700,
+      "width": 1400
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "gallery"
+        },
+        "position": {
+          "x": 0,
+          "y": 0,
+          "width": 1400,
+          "height": 700
+        },
+        "props": {
+          "html": "<div style=\"padding:0 12px 24px\"><div style=\"color:#f0883e;font-size:24px;font-weight:600;margin-bottom:6px\">Windows \u00b7 ExampleMain</div><div style=\"color:#8b949e;font-size:13px;margin-bottom:14px\">7 windows in the ExampleMain category</div><div><div style=\"display:inline-block;width:200px;margin:6px;background:#161b22;border:1px solid #2a313c;border-radius:8px;overflow:hidden;vertical-align:top;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif\"><img src=\"https://raw.githubusercontent.com/teslasolar/Flintium/master/com.inductiveautomation.vision/windows/Flintium/ExampleMain/Alarms/thumbnail.png\" alt=\"Alarms\" style=\"width:100%;height:140px;object-fit:contain;background:#fff;display:block\" /><div style=\"padding:8px\"><div style=\"color:#e6edf3;font-size:13px;font-weight:600;word-break:break-word\">Alarms</div><div style=\"color:#8b949e;font-size:11px;margin-top:2px;word-break:break-word\">ExampleMain/Alarms</div><a href=\"https://github.com/teslasolar/Flintium/tree/master/com.inductiveautomation.vision/windows/Flintium/ExampleMain/Alarms\" target=\"_blank\" style=\"color:#58a6ff;font-size:11px;display:block;margin-top:6px;text-decoration:none\">View on GitHub \u2192</a></div></div><div style=\"display:inline-block;width:200px;margin:6px;background:#161b22;border:1px solid #2a313c;border-radius:8px;overflow:hidden;vertical-align:top;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif\"><img src=\"https://raw.githubusercontent.com/teslasolar/Flintium/master/com.inductiveautomation.vision/windows/Flintium/ExampleMain/HX10/thumbnail.png\" alt=\"HX10\" style=\"width:100%;height:140px;object-fit:contain;background:#fff;display:block\" /><div style=\"padding:8px\"><div style=\"color:#e6edf3;font-size:13px;font-weight:600;word-break:break-word\">HX10</div><div style=\"color:#8b949e;font-size:11px;margin-top:2px;word-break:break-word\">ExampleMain/HX10</div><a href=\"https://github.com/teslasolar/Flintium/tree/master/com.inductiveautomation.vision/windows/Flintium/ExampleMain/HX10\" target=\"_blank\" style=\"color:#58a6ff;font-size:11px;display:block;margin-top:6px;text-decoration:none\">View on GitHub \u2192</a></div></div><div style=\"display:inline-block;width:200px;margin:6px;background:#161b22;border:1px solid #2a313c;border-radius:8px;overflow:hidden;vertical-align:top;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif\"><img src=\"https://raw.githubusercontent.com/teslasolar/Flintium/master/com.inductiveautomation.vision/windows/Flintium/ExampleMain/Navigation/thumbnail.png\" alt=\"Navigation\" style=\"width:100%;height:140px;object-fit:contain;background:#fff;display:block\" /><div style=\"padding:8px\"><div style=\"color:#e6edf3;font-size:13px;font-weight:600;word-break:break-word\">Navigation</div><div style=\"color:#8b949e;font-size:11px;margin-top:2px;word-break:break-word\">ExampleMain/Navigation</div><a href=\"https://github.com/teslasolar/Flintium/tree/master/com.inductiveautomation.vision/windows/Flintium/ExampleMain/Navigation\" target=\"_blank\" style=\"color:#58a6ff;font-size:11px;display:block;margin-top:6px;text-decoration:none\">View on GitHub \u2192</a></div></div><div style=\"display:inline-block;width:200px;margin:6px;background:#161b22;border:1px solid #2a313c;border-radius:8px;overflow:hidden;vertical-align:top;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif\"><img src=\"https://raw.githubusercontent.com/teslasolar/Flintium/master/com.inductiveautomation.vision/windows/Flintium/ExampleMain/Overview/thumbnail.png\" alt=\"Overview\" style=\"width:100%;height:140px;object-fit:contain;background:#fff;display:block\" /><div style=\"padding:8px\"><div style=\"color:#e6edf3;font-size:13px;font-weight:600;word-break:break-word\">Overview</div><div style=\"color:#8b949e;font-size:11px;margin-top:2px;word-break:break-word\">ExampleMain/Overview</div><a href=\"https://github.com/teslasolar/Flintium/tree/master/com.inductiveautomation.vision/windows/Flintium/ExampleMain/Overview\" target=\"_blank\" style=\"color:#58a6ff;font-size:11px;display:block;margin-top:6px;text-decoration:none\">View on GitHub \u2192</a></div></div><div style=\"display:inline-block;width:200px;margin:6px;background:#161b22;border:1px solid #2a313c;border-radius:8px;overflow:hidden;vertical-align:top;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif\"><img src=\"https://raw.githubusercontent.com/teslasolar/Flintium/master/com.inductiveautomation.vision/windows/Flintium/ExampleMain/Reactor101/thumbnail.png\" alt=\"Reactor101\" style=\"width:100%;height:140px;object-fit:contain;background:#fff;display:block\" /><div style=\"padding:8px\"><div style=\"color:#e6edf3;font-size:13px;font-weight:600;word-break:break-word\">Reactor101</div><div style=\"color:#8b949e;font-size:11px;margin-top:2px;word-break:break-word\">ExampleMain/Reactor101</div><a href=\"https://github.com/teslasolar/Flintium/tree/master/com.inductiveautomation.vision/windows/Flintium/ExampleMain/Reactor101\" target=\"_blank\" style=\"color:#58a6ff;font-size:11px;display:block;margin-top:6px;text-decoration:none\">View on GitHub \u2192</a></div></div><div style=\"display:inline-block;width:200px;margin:6px;background:#161b22;border:1px solid #2a313c;border-radius:8px;overflow:hidden;vertical-align:top;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif\"><img src=\"https://raw.githubusercontent.com/teslasolar/Flintium/master/com.inductiveautomation.vision/windows/Flintium/ExampleMain/ScalingTest/thumbnail.png\" alt=\"ScalingTest\" style=\"width:100%;height:140px;object-fit:contain;background:#fff;display:block\" /><div style=\"padding:8px\"><div style=\"color:#e6edf3;font-size:13px;font-weight:600;word-break:break-word\">ScalingTest</div><div style=\"color:#8b949e;font-size:11px;margin-top:2px;word-break:break-word\">ExampleMain/ScalingTest</div><a href=\"https://github.com/teslasolar/Flintium/tree/master/com.inductiveautomation.vision/windows/Flintium/ExampleMain/ScalingTest\" target=\"_blank\" style=\"color:#58a6ff;font-size:11px;display:block;margin-top:6px;text-decoration:none\">View on GitHub \u2192</a></div></div><div style=\"display:inline-block;width:200px;margin:6px;background:#161b22;border:1px solid #2a313c;border-radius:8px;overflow:hidden;vertical-align:top;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif\"><img src=\"https://raw.githubusercontent.com/teslasolar/Flintium/master/com.inductiveautomation.vision/windows/Flintium/ExampleMain/Tanks/thumbnail.png\" alt=\"Tanks\" style=\"width:100%;height:140px;object-fit:contain;background:#fff;display:block\" /><div style=\"padding:8px\"><div style=\"color:#e6edf3;font-size:13px;font-weight:600;word-break:break-word\">Tanks</div><div style=\"color:#8b949e;font-size:11px;margin-top:2px;word-break:break-word\">ExampleMain/Tanks</div><a href=\"https://github.com/teslasolar/Flintium/tree/master/com.inductiveautomation.vision/windows/Flintium/ExampleMain/Tanks\" target=\"_blank\" style=\"color:#58a6ff;font-size:11px;display:block;margin-top:6px;text-decoration:none\">View on GitHub \u2192</a></div></div></div></div>",
+          "style": {
+            "backgroundColor": "#0e1116",
+            "overflow": "auto"
+          }
+        },
+        "type": "ia.display.markdown"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "backgroundColor": "#0e1116"
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}
